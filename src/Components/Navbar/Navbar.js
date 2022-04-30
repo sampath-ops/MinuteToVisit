@@ -1,5 +1,4 @@
 import styles from "./navbar.module.css";
-import logo from "../../Images/M2V.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUtensils,faClapperboard,faCartShopping,faTree,faHotel,faSearch } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from "react-router-dom";
