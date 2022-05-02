@@ -1,0 +1,39 @@
+.card_container{
+    display: grid;
+    width: 300px;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card_container > img{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+.card_content{
+    display: grid;
+    background-color: #ffffff;
+    padding:14px;
+}
+.city_type{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-size: 15px;
+}
+.know_more{
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+}
+.know_more > svg{
+    position: absolute;
+    top: 2px;
+    margin-left: 4px;
+}
+@media(max-width:768px){
+    .home_container{
+        margin: 0 16px;
+    }
+}

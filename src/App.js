@@ -7,6 +7,7 @@ import Entertainment from './Components/Entertainment/Entertainment';
 import Shop from './Components/Shop/Shop';
 import Sites from './Components/Sites/Sites';
 import Stay from './Components/Stay/Stay';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
          <Route path="/sites" element={<Sites/>}/>
          <Route path="/stay" element={<Stay/>}/>
        </Routes>
+       <Footer/>
     </Router>
   );
 }

@@ -1,0 +1,13 @@
+.home{
+    background-color: #F6F8FB;
+}
+.home_container{
+    margin: 0 35px;
+    padding: 20px 0;
+}
+
+@media(max-width:768px){
+    .home_container{
+        margin: 0 16px;
+    }
+}
