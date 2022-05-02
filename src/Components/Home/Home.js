@@ -1,5 +1,5 @@
 import styles from "./home.module.css";
-import HomeCard from "./HomeCard/HomeCard";
+import HomeRestaurant from "./HomeRestaurant/HomeRestaurant";
 const Home = () => {
     return (  
         <div className={styles.home}>
@@ -7,7 +7,7 @@ const Home = () => {
                 <div className={styles.hero_content}>
                     <h2>Explore your city</h2>
                     <p>Find what you have in your city!</p>
-                    <HomeCard/>
+                    <HomeRestaurant/>
             </div>
             </div>
            

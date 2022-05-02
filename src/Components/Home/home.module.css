@@ -10,4 +10,7 @@
     .home_container{
         margin: 0 16px;
     }
+    .card_layout_title{
+        font-size: 18px;
+    }
 }

@@ -37,17 +37,9 @@
 .nav_menus > ul > a > li > svg{
     margin-right: 6px;
 }
-/* .nav_menus > ul > a > li::after{
-    width: 0%;
-    transition: all 2s ease-in-out;
+.nav_menus > ul > a > li:hover{
+    color: #8e24aa;
 }
-.nav_menus > ul > a > li:hover::after{
-    content: " ";
-    width: 100%;
-    height: 2px;
-    background-color: rebeccapurple;
-    display: block;
-} */
 .searchbar{
     position: relative;
     flex-grow: 1;
