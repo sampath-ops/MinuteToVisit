@@ -1,7 +1,9 @@
+import RestaurantCardTemplate from "./RestaurantCardTemplate";
+
 const Restaurant = () => {
     return ( 
         <div className="restaurant">
-            Restaurants page
+            <RestaurantCardTemplate/>
         </div>
      );
 }
