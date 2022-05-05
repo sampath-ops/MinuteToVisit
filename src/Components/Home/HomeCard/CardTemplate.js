@@ -6,15 +6,18 @@ import styles from "./Card.module.css";
 const CardTemplate = ({arr}) => {
     return ( 
         arr.map((item,index)=>(
-            <div className={styles.card_container} key={index}>
-                <img src={item.img} alt="temp" />
-                <div className={styles.card_content}>
-                    <p className={styles.city_type}>Salem <FontAwesomeIcon icon={faUtensils}/></p>
-                    <h2>{item.name}</h2>
-                    <p className='content_short'>{item.short}</p>
-                    <Link to="/"><button className={styles.know_more}>Know more <FontAwesomeIcon icon={faArrowRight}/></button></Link>
+            <Link to="/restaurant/saravana-bavan" key={index}>
+                <div className={styles.card_container}>
+                    <img src={item.img} alt="temp" />
+                    <div className={styles.card_content}>
+                        <p className={styles.city_type}>Salem <FontAwesomeIcon icon={faUtensils}/></p>
+                        <h2>{item.name}</h2>
+                        <p className='content_short'>{item.short}</p>
+                        <Link to="/"><button className={styles.know_more}>Know more <FontAwesomeIcon icon={faArrowRight}/></button></Link>
+                    </div>
                 </div>
-            </div>
+            </Link>
+           
         ))
      );
 }
