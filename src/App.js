@@ -1,5 +1,6 @@
 import './App.css';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import GeoLocation from './Components/GeoLocation';
 import Navbar from './Components/Navbar/Navbar';
 import Home from "./Components/Home/Home";
 import Restaurant from './Components/Restaurant/Restaurant';
@@ -12,6 +13,7 @@ function App() {
   return (
     <Router>
       <Navbar/>
+      <GeoLocation/>
        <Routes>
          <Route exact path="/" element={<Home/>}/>
          <Route path="/restaurant" element={<Restaurant/>}/>
