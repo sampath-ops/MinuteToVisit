@@ -4,7 +4,15 @@ import {faUtensils,faClapperboard,faCartShopping,faTree,faHotel} from '@fortawes
 import { NavLink } from "react-router-dom";
 import Logo from "../Logo";
 import SearchBar from "../SearchBar";
+import { signInWithGoogle,SignOut } from "../signin";
+import { auth } from "../signin";
 const Navbar = () => {
+    if(auth.currentUser){
+        console.log("user in")
+    }
+    else{
+        console.log("user not exists")
+    }
     return ( 
         <div className={styles.navbar_container}>
             <div className={styles.navbar}>
@@ -19,9 +27,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <SearchBar/>
-                <div className={styles.login_button}>
-                    <button>Login</button>
-                </div>
+                {
+                    auth.currentUser ?<div className={styles.login_button}>
+                    <button onClick={SignOut}>Logout</button>
+                    </div> : <div className={styles.login_button}>
+                    <button onClick={signInWithGoogle}>Login</button>
+                    </div>
+                }
             </div>
         </div>
      );

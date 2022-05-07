@@ -1,4 +1,4 @@
-import {db} from './firebase.config';
+import {db} from '../firebase.config';
 import geohash from "ngeohash";
 import { collection, query, where, getDocs } from "firebase/firestore";
 

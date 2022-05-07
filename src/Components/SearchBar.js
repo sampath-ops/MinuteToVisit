@@ -89,7 +89,7 @@ const SearchBar = (props) => {
 
     useEffect(() => {
         loadScript(
-        `https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places`,
+        `https://maps.googleapis.com/maps/api/js?&libraries=places`,
         () => handleScriptLoad(setQuery, autoCompleteRef)
         );
         return ()=> removeGoogleMapScript();
