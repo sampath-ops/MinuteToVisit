@@ -5,16 +5,14 @@ import { NavLink } from "react-router-dom";
 import Logo from "../Logo";
 import SearchBar from "../SearchBar";
 import { signInWithGoogle,SignOut } from "../signin";
-import { auth } from "../signin";
+import { useScrollHandler } from "./useScrollHandler";
+import { UserContext } from "../Provider/UserProvider";
+import { useContext } from "react";
 const Navbar = () => {
-    if(auth.currentUser){
-        console.log("user in")
-    }
-    else{
-        console.log("user not exists")
-    }
+    const user = useContext(UserContext);
+    const scroll = useScrollHandler();
     return ( 
-        <div className={styles.navbar_container}>
+        <div className={styles.navbar_container + ` ${scroll ? styles.navonscroll : ""}`}>
             <div className={styles.navbar}>
                 <Logo/>
                 <div className={styles.nav_menus}>
@@ -28,7 +26,7 @@ const Navbar = () => {
                 </div>
                 <SearchBar/>
                 {
-                    auth.currentUser ?<div className={styles.login_button}>
+                    user ?<div className={styles.login_button}>
                     <button onClick={SignOut}>Logout</button>
                     </div> : <div className={styles.login_button}>
                     <button onClick={signInWithGoogle}>Login</button>

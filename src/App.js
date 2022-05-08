@@ -9,8 +9,10 @@ import Shop from './Components/Shop/Shop';
 import Sites from './Components/Sites/Sites';
 import Stay from './Components/Stay/Stay';
 import Footer from './Components/Footer/Footer';
+import UserProvider from './Components/Provider/UserProvider';
 function App() {
   return (
+    <UserProvider>
     <Router>
       <Navbar/>
       <GeoLocation/>
@@ -25,6 +27,7 @@ function App() {
        </Routes>
        <Footer/>
     </Router>
+    </UserProvider>
   );
 }
 

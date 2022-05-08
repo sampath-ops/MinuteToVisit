@@ -1,14 +1,24 @@
 .navbar_container{
     border-bottom: 1px solid #CFD8DC;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: all 0.4s ease;
+    background-color: transparent;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 35px;
-    padding-bottom: 20px;
-    margin-bottom: 0;
+    margin: 0 35px;
+    padding: 20px 0;
     column-gap: 16px;
+}
+.navonscroll{
+    box-shadow: 0 1px 2px rgb(0 0 0 / 6%);
+    background-color: #ffffff;
 }
 .logo > a > b{
     color: white;

@@ -11,6 +11,7 @@ export const signInWithGoogle = () =>{
     // // The signed-in user info.
     // console.log(result.user,credential,token);
     // ...
+    window.alert("signin successfull");
   }).catch((error) => {
     // Handle Errors here.
     const errorCode = error.code;
@@ -29,7 +30,7 @@ export const signInWithGoogle = () =>{
 
 export const SignOut = ()=>{
     signOut(auth).then(() => {
-        console.log("SignOut successfull")
+        window.alert("signOut successfull");
       }).catch((error) => {
         // An error happened.
       });
