@@ -10,6 +10,7 @@ import Sites from './Components/Sites/Sites';
 import Stay from './Components/Stay/Stay';
 import Footer from './Components/Footer/Footer';
 import UserProvider from './Components/Provider/UserProvider';
+import RestaurantDescription from './Components/Restaurant/RestaurantDescription/RestaurantDescription';
 function App() {
   return (
     <UserProvider>
@@ -19,7 +20,7 @@ function App() {
        <Routes>
          <Route exact path="/" element={<Home/>}/>
          <Route path="/restaurant" element={<Restaurant/>}/>
-         <Route path="/restaurant/:id" element={<Restaurant/>}/>
+         <Route path="/restaurant/:id" element={<RestaurantDescription/>}/>
          <Route path="/entertainment" element={<Entertainment/>}/>
          <Route path="/shop" element={<Shop/>}/>
          <Route path="/sites" element={<Sites/>}/>

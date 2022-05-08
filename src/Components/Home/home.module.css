@@ -57,6 +57,12 @@
     margin-bottom: 40px;
 }
 @media(max-width:768px){
+    .hero_title {
+        margin-bottom: 30px;
+    }
+    .news_letter > input,.news_letter > button{
+        padding: 10px;
+    }
     .home_container{
         margin: 0 16px;
     }

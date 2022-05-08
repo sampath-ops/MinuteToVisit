@@ -1,0 +1,47 @@
+.restaurant_description_container{
+    margin: 0 35px;
+    margin-top: 135px;
+}
+.restaurant_hero{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+}
+.side_bar{
+    padding: 30px;
+    padding-top: 0;
+}
+.side_bar > h2{
+    margin-top: 0;
+}
+.menucard_container{
+    text-align: center;
+    margin-top: 60px;
+}
+.menu_card > img{
+    width: 650px;
+    height: 815px;
+}
+
+@media(max-width:768px){
+    .restaurant_hero{
+        grid-template-columns: auto;
+        row-gap: 30px;
+    }
+    .restaurant_description_container{
+        margin: 0 25px;
+        margin-top: 195px;
+    }
+    .menu_card > img{
+        width: 310px;
+        height: 475px;
+    }
+    .side_bar{
+        padding: 0;
+    }
+    .side_bar > h2{
+        font-size: 20px;
+    }
+    .side_bar > p{
+        font-size: 14px;
+    }
+}

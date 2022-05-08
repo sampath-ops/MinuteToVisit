@@ -6,9 +6,9 @@ import styles from "./Card.module.css";
 const CardTemplate = ({arr}) => {
     return ( 
         arr.map((item,index)=>(
-            <Link to={`/restaurant/${item.slug}`} key={index}>
+            <Link to={`/restaurant/${item.slug}`} state={item} key={index}>
                 <div className={styles.card_container}>
-                    <img src={item.img} alt="temp" />
+                    <img src={item.images[0]} alt="temp" />
                     <div className={styles.card_content}>
                         <p className={styles.city_type}>Salem <FontAwesomeIcon icon={faUtensils}/></p>
                         <h2>{item.name}</h2>
