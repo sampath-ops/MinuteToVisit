@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import {db} from '../firebase.config';
 import geohash from "ngeohash";
 import { collection, query, where, getDocs } from "firebase/firestore";
@@ -29,56 +29,38 @@ const getGeohashRange = (
   };
 };
 
-var options = {
-  enableHighAccuracy: true,
-  timeout: 5000,
-  maximumAge: 0,
-};
-
-async function success(pos) {
-  var crd = pos.coords;
-  // console.log("Your current position is:"); 
-  // console.log(`Latitude : ${crd.latitude}`); 
-  // console.log(`Longitude: ${crd.longitude}`); 
-  // console.log(`More or less ${crd.accuracy} meters.`); 
-  const { latitude, longitude } = crd;
-  const range = getGeohashRange(25.622198992158612, 85.11519577716592, 7.45645); // NEED TO USE USER LATLNG
-
-  const q = query(collection(db, "restaurants"), where("geolocation", ">=", range.lower),
-  where("geolocation", "<=", range.upper),where("approved","==",true));
-
-  const querySnapshot = await getDocs(q);
-  querySnapshot.forEach((doc) => {
-    // doc.data() is never undefined for query doc snapshots
-    // console.log(doc.data());
-  });
-
-
-  // db
-  //   .collection("properties")
-  //   .where("geolocation", ">=", range.lower)
-  //   .where("geolocation", "<=", range.upper)
-  //   .onSnapshot(snapshot => {
-  //     snapshot.docs.map(doc=>{
-  //       // console.log(doc.data());
-  //     })
-  //   })
+function getPosition(){
+  return new Promise((res,rej)=>{
+    navigator.geolocation.getCurrentPosition(res,rej);
+  })
 }
 
-function errors(err) {
-  console.warn(`ERROR(${err.code}): ${err.message}`);
-}
+const GeoLocation = ({nearByDocumentsHandler})=> {
 
-export default class GeoLocation extends Component {
-  componentDidMount() {
-    navigator.geolocation.getCurrentPosition(success, errors, options);
-  }
-
-  render() {
+    useEffect(()=>{ 
+        async function userPosition(){
+          const position = await getPosition();
+          var crd = position.coords;
+          // console.log("Your current position is:"); 
+          // console.log(`Latitude : ${crd.latitude}`); 
+          // console.log(`Longitude: ${crd.longitude}`); 
+          // console.log(`More or less ${crd.accuracy} meters.`); 
+          const { latitude, longitude } = crd;
+          const range = getGeohashRange(11.65583469134832, 78.15808460379398, 7.45645); // NEED TO USE USER LATLNG
+          
+          const q = query(collection(db, "restaurants"), where("geolocation", ">=", range.lower),
+          where("geolocation", "<=", range.upper));
+        
+          const querySnapshot = await getDocs(q);
+          nearByDocumentsHandler({restaurant:querySnapshot})
+        }
+        userPosition();
+    },[])
+    
     return (
       <>
       
       </>
     );
-  }
 }
+export default GeoLocation;

@@ -2,9 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { enableIndexedDbPersistence } from "firebase/firestore"; 
 import { initializeFirestore, CACHE_SIZE_UNLIMITED } from "firebase/firestore";
-// dotenv.config();
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import {getStorage} from "firebase/storage"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -22,6 +20,7 @@ const app = initializeApp(firebaseConfig);
 const db = initializeFirestore(app, {
     cacheSizeBytes: CACHE_SIZE_UNLIMITED
   });
+const storage = getStorage();
 // ENABLE OFFLINE PERSISTANCE
 enableIndexedDbPersistence(db)
   .catch((err) => {
@@ -35,4 +34,4 @@ enableIndexedDbPersistence(db)
           // ...
       }
   });
-export {app,db}
+export {app,db,storage}

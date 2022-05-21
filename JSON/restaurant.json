@@ -1,0 +1,86 @@
+[
+    {
+        "name":"Cook with comali",
+        "address":"Mariyamman Kovil Main Rd, Sendarapatti, Gugai, Salem, Tamil Nadu 636006, India",
+        "images":["","","","",""],
+        "geohash":"tdpd62hrv2k1",
+        "youtube":"https://youtube.com/shorts/-9fQWc0pem0?feature=share",
+        "resCode":"M2V-RES62354",
+        "mapLink":"https://goo.gl/maps/hS4VqXVs53ParNG26"
+    },
+    {
+        "name":"Om Sakthi soup",
+        "address":"Om sakthi sudupaal nilayam Sandaipet Main Rd, Shevapet, Salem, Tamil Nadu 636002",
+        "images":["","","",""],
+        "geohash":"tdpd60jzty69",
+        "youtube":"https://youtube.com/shorts/v-bZBdBo-3c?feature=share",
+        "resCode":"M2V-RES35027",
+        "mapLink":"https://goo.gl/maps/9utstniZypoKfQqW6"
+    },
+    {
+        "name":"Salem RR Briyani",
+        "address":"ASK Complex, 1st St, Subramania Nagar, Suramangalam, Salem, Tamil Nadu 636005",
+        "images":["",""],
+        "geohash":"tdpd3tngjjqz",
+        "resCode":"M2V-RES35027",
+        "mapLink":"https://goo.gl/maps/g6DasrThnbT9iQGy9"
+    },
+    {
+        "name":"Lakshmi Hotels",
+        "address":"11, Post Office Rd, Subramania Nagar, Suramangalam, Salem, Tamil Nadu 636005",
+        "images":["",""],
+        "geohash":"tdpd3tpk8gnk",
+        "resCode":"M2V-RES76686",
+        "mapLink":"https://goo.gl/maps/MeL7dxVP9EgosDVz9"
+    },
+    {
+        "name":"Karaikal Sea Foods",
+        "address":"Bus Stop, Junction Main Rd, next to First American Building, Subramania Nagar, 1st Gate, Salem, Tamil Nadu 636005",
+        "images":["",""],
+        "geohash":"tdpd3tngwn3n",
+        "resCode":"M2V-RES42151",
+        "mapLink":"https://goo.gl/maps/BTCH6WNCR2pznMUq6"
+    },
+    {
+        "name":"Tandooriwala",
+        "address":"Junction Main Rd, Subramania Nagar, Suramangalam, Salem, Tamil Nadu 636005",
+        "images":["",""],
+        "geohash":"tdpd3tn6kdwx",
+        "resCode":"M2V-RES39831",
+        "mapLink":"https://g.page/tandooriwala?share"
+    },
+    {
+        "name":"Salem Shawarma king",
+        "address":"Victoria Complex, Shop No 2 , Ground Floor, Manickavasagar 1st St, opp. BrewBakes, Kennedy Nagar, Suramangalam, Salem, Tamil Nadu 636005",
+        "images":["",""],
+        "geohash":"tdpd3tpssntm",
+        "resCode":"M2V-RES73804",
+        "mapLink":"https://g.page/salem-shawarma-king?share"
+    },
+    {
+        "name":"Juice Maall",
+        "address":"110, Trichy Main Rd, Gugai, Salem, Tamil Nadu 636006",
+        "images":["",""],
+        "geohash":"tdpd4quwz15c",
+        "resCode":"M2V-RES00998",
+        "cusine":"italian",
+        "type":"family",
+        "mapLink":"https://g.page/juice-mall-salem?share"
+    },
+    {
+        "name":"Tangerine - the world kitchen.",
+        "address":"Radisson Hotel, Omalur Main Rd, Jagir Ammapalayam, Salem, Tamil Nadu 636302",
+        "images":["",""],
+        "geohash":"tdpd9897fe4t",
+        "resCode":"M2V-RES25096",
+        "mapLink":"https://goo.gl/maps/8cvbZSF8E5sCZ1Be7"
+    },
+    {
+        "name":"Barbequeen",
+        "address":"Junction Main Rd, Near Sona college, Subramania Nagar, Salem, Tamil Nadu 636005",
+        "images":["",""],
+        "geohash":"tdpd3txuzu6n",
+        "resCode":"M2V-RES53671",
+        "mapLink":"https://goo.gl/maps/f1XJDwnr5N4X5ina6"
+    }
+]

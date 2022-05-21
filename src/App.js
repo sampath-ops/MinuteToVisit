@@ -11,12 +11,32 @@ import Stay from './Components/Stay/Stay';
 import Footer from './Components/Footer/Footer';
 import UserProvider from './Components/Provider/UserProvider';
 import RestaurantDescription from './Components/Restaurant/RestaurantDescription/RestaurantDescription';
+import { useState } from 'react';
+import UploadRestaurant from './Components/Upload/Restaurant';
 function App() {
+
+  const [nearbySnap,setNearBySnap] = useState({});
+
+  const nearByDocuments = (snap)=>{
+    return setNearBySnap(prevState =>({
+        ...prevState.nearbySnap,
+        ...snap
+    }))
+  }
+ 
+  if(Object.keys(nearbySnap).length > 0){
+      nearbySnap.restaurant.forEach((doc) => {
+      // doc.data() is never undefined for query doc snapshots
+      console.log(doc.data());
+    });
+  }
+  
+
   return (
     <UserProvider>
     <Router>
       <Navbar/>
-      <GeoLocation/>
+      <GeoLocation nearByDocumentsHandler={nearByDocuments}/>
        <Routes>
          <Route exact path="/" element={<Home/>}/>
          <Route path="/restaurant" element={<Restaurant/>}/>
@@ -25,6 +45,7 @@ function App() {
          <Route path="/shop" element={<Shop/>}/>
          <Route path="/sites" element={<Sites/>}/>
          <Route path="/stay" element={<Stay/>}/>
+         <Route path="/upload/restaurant" element={<UploadRestaurant/>}/>
        </Routes>
        <Footer/>
     </Router>
