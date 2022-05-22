@@ -1,7 +1,8 @@
 import styles from "./home.module.css";
 import HomeRestaurant from "./HomeRestaurant/HomeRestaurant";
 import hero from "../../Images/hero.svg";
-const Home = () => {
+// import Import from "../../importData";
+const Home = ({nearbySnap}) => {
     return (  
         <div className={styles.home}>
             <div className={styles.home_container}>
@@ -18,7 +19,8 @@ const Home = () => {
                     </div>
                     <img src={hero} alt="hero" />  
                 </div>
-            <HomeRestaurant/>
+            <HomeRestaurant nearbySnap={nearbySnap}/>
+            {/* <Import/> */}
             </div>
            
         </div>

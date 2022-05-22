@@ -1,0 +1,48 @@
+[
+   
+    {
+        "name":"Salem RR Briyani",
+        "address":"ASK Complex, 1st St, Subramania Nagar, Suramangalam, Salem, Tamil Nadu 636005",
+        "menucard":"",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FRR%20Briyani%2F1.webp?alt=media&token=99690d28-3cfe-4efa-9831-86cc0f806224","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FRR%20Briyani%2F2.webp?alt=media&token=3835a82e-a763-4777-bbb2-a7b0ee10c4cd"],
+        "geohash":"tdpd3tngjjqz",
+        "resCode":"M2V-RES35027",
+        "mapLink":"https://goo.gl/maps/g6DasrThnbT9iQGy9",
+        "order":"",
+        "approved":true
+    },
+    {
+        "name":"Lakshmi Hotels",
+        "address":"11, Post Office Rd, Subramania Nagar, Suramangalam, Salem, Tamil Nadu 636005",
+        "menucard":"",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FLakshimi%2F1.webp?alt=media&token=22065c80-93ed-4aca-82fc-a2f6a7a77f43","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FLakshimi%2F6.webp?alt=media&token=5882ea06-29b6-4a34-b425-69b434f0812d","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FLakshimi%2F2.webp?alt=media&token=9cb4627a-522f-4c9f-b330-c9bfb6b96000","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FLakshimi%2F3.webp?alt=media&token=bf11b146-4899-47fd-aeb4-3b6325e58ff0","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FLakshimi%2F4.webp?alt=media&token=610fef2e-c930-48c0-8875-9a785244c61a","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FLakshimi%2F5.webp?alt=media&token=d72bb823-aca3-433d-89de-c46dad319f20"],
+        "geohash":"tdpd3tpk8gnk",
+        "resCode":"M2V-RES76686",
+        "mapLink":"https://goo.gl/maps/MeL7dxVP9EgosDVz9",
+        "order":"",
+        "approved":true
+    },
+
+    {
+        "name":"Salem Shawarma king",
+        "address":"Victoria Complex, Shop No 2 , Ground Floor, Manickavasagar 1st St, opp. BrewBakes, Kennedy Nagar, Suramangalam, Salem, Tamil Nadu 636005",
+        "menucard":"https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FShawarma%20king%2Fmenu.webp?alt=media&token=45e6e957-a18f-4c72-b447-d5b6c5f15f6b",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FShawarma%20king%2F1.webp?alt=media&token=4d43873b-20cc-428f-96a1-628244b7d335","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FShawarma%20king%2F2.webp?alt=media&token=3901e6f4-0957-49e0-be81-f2670525c80e","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FShawarma%20king%2F3.webp?alt=media&token=754946f0-e3a2-41c5-bfd0-a95d456f69f0","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FShawarma%20king%2F4.webp?alt=media&token=f170532d-fad8-427a-a365-f53c32eeab3b","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FShawarma%20king%2F5.webp?alt=media&token=52e09252-8fb2-4833-bdf6-9505f35d5974"],
+        "geohash":"tdpd3tpssntm",
+        "resCode":"M2V-RES73804",
+        "mapLink":"https://g.page/salem-shawarma-king?share",
+        "order":"https://www.zomato.com/salem/salem-shawarma-king-1-suramangalam/order",
+        "approved":true
+    },
+    {
+        "name":"Barbequeen",
+        "address":"Junction Main Rd, Near Sona college, Subramania Nagar, Salem, Tamil Nadu 636005",
+        "menucard":"",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FBarbequeen-sona%2F1.avif?alt=media&token=a264d52f-3c93-47f6-b8b2-4122b5a4786d","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FBarbequeen-sona%2F5.avif?alt=media&token=cc4b406d-6e03-4422-b0dd-36c6a73ab384","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FBarbequeen-sona%2F2.avif?alt=media&token=a074922b-1dd0-4745-8546-89ddb9e37173","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FBarbequeen-sona%2F3.avif?alt=media&token=34f05e3e-49bb-4551-9c80-5e2f793d4b0d","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Restaurants%2FSalem%2FBarbequeen-sona%2F4.avif?alt=media&token=f54ae647-95b9-466c-82b0-51122a99aea2"],
+        "geohash":"tdpd3trfqcd5",
+        "resCode":"M2V-RES53671",
+        "mapLink":"https://goo.gl/maps/f1XJDwnr5N4X5ina6",
+        "order":"https://www.zomato.com/salem/barbequeen-restaurant-3-suramangalam/order",
+        "approved":true
+    }
+]

@@ -46,12 +46,13 @@ const GeoLocation = ({nearByDocumentsHandler})=> {
           // console.log(`Longitude: ${crd.longitude}`); 
           // console.log(`More or less ${crd.accuracy} meters.`); 
           const { latitude, longitude } = crd;
-          const range = getGeohashRange(11.65583469134832, 78.15808460379398, 7.45645); // NEED TO USE USER LATLNG
+          const range = getGeohashRange(latitude, longitude, 7.45645); // NEED TO USE USER LATLNG
           
-          const q = query(collection(db, "restaurants"), where("geolocation", ">=", range.lower),
-          where("geolocation", "<=", range.upper));
+          const q = query(collection(db, "restaurants"), where("geohash", ">=", range.lower),
+          where("geohash", "<=", range.upper));
         
           const querySnapshot = await getDocs(q);
+  
           nearByDocumentsHandler({restaurant:querySnapshot})
         }
         userPosition();

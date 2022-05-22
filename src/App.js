@@ -19,7 +19,7 @@ function App() {
 
   const nearByDocuments = (snap)=>{
     return setNearBySnap(prevState =>({
-        ...prevState.nearbySnap,
+        ...prevState,
         ...snap
     }))
   }
@@ -38,7 +38,7 @@ function App() {
       <Navbar/>
       <GeoLocation nearByDocumentsHandler={nearByDocuments}/>
        <Routes>
-         <Route exact path="/" element={<Home/>}/>
+         <Route exact path="/" element={<Home nearbySnap={nearbySnap}/>}/>
          <Route path="/restaurant" element={<Restaurant/>}/>
          <Route path="/restaurant/:id" element={<RestaurantDescription/>}/>
          <Route path="/entertainment" element={<Entertainment/>}/>
