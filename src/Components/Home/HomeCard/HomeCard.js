@@ -1,9 +1,9 @@
 import CardTemplate from "./CardTemplate";
 import styles from "./Card.module.css";
-const HomeCard = ({arr}) => {
+const HomeCard = ({arr,title}) => {
     return ( 
         <div className={styles.home_cards_layout}>
-            <CardTemplate arr={arr}/>
+            <CardTemplate title={title} arr={arr}/>
         </div>
      );
 }

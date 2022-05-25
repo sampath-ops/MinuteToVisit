@@ -47,6 +47,7 @@
   .carousel .slide img{
     height: 488px;
 }
+
 @media(max-width:768px){
     .footer{
         display: block;

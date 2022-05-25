@@ -1,6 +1,7 @@
 .home_cards_layout{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    column-gap: 25px;
 }
 .card_container{
     display: grid;

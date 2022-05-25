@@ -1,8 +1,9 @@
 import styles from "./home.module.css";
-import HomeRestaurant from "./HomeRestaurant/HomeRestaurant";
+import HomeNear from "./HomeNear/HomeNear";
 import hero from "../../Images/hero.svg";
-// import Import from "../../importData";
+import Import from "../../importData";
 const Home = ({nearbySnap}) => {
+
     return (  
         <div className={styles.home}>
             <div className={styles.home_container}>
@@ -19,8 +20,17 @@ const Home = ({nearbySnap}) => {
                     </div>
                     <img src={hero} alt="hero" />  
                 </div>
-            <HomeRestaurant nearbySnap={nearbySnap}/>
-            {/* <Import/> */}
+                {
+                    nearbySnap && 
+                    <>
+                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Restaurants"/>
+                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Entertainment"/>
+                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Shops"/>
+                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Sites"/>
+                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Stay"/>
+                    </>
+                }
+            <Import/>
             </div>
            
         </div>

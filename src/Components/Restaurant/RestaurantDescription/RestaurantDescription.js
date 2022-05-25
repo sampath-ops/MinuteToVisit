@@ -1,15 +1,23 @@
+/* eslint-disable */
 import styles from "./RestaurantDescription.module.css";
 import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useLocation } from "react-router-dom";
-import { useRef,useEffect } from "react";
+import { useRef,useEffect, useState } from "react";
 import 'mapbox-gl/dist/mapbox-gl.css';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import geohash from "ngeohash"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMap, faBowlFood } from "@fortawesome/free-solid-svg-icons";
-const RestaurantDescription = () => {
+import PopularDishes from "./PopularDishes";
+import HomeNear from "../../Home/HomeNear/HomeNear";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../../../firebase.config";
+const RestaurantDescription = ({nearbySnap}) => {
     
+    const [reviewsObj,setReviews] = useState();
+
+    // mapbox literals
     mapboxgl.accessToken = 'pk.eyJ1Ijoic2FtcGF0aDA0IiwiYSI6ImNrcTNkNjJsejA0NjMycW50cWlkd29laTMifQ.b1-zGv3daR0_GT3zEyOqjg';
     const location = useLocation();
     const data = location.state;
@@ -38,9 +46,19 @@ const RestaurantDescription = () => {
                 )
             )
             .addTo(map.current);
-    });
 
-    
+        // get reviews
+        async function getReviews(){
+            const docRef = doc(db, "RestaurantReviews", data.reviews);
+            const docSnap = await getDoc(docRef)
+            setReviews(docSnap.data());
+        }
+
+        getReviews();
+
+    },[]);
+
+    console.log(reviewsObj)
 
     return ( 
         <div className={styles.restaurant_description_container}>
@@ -62,27 +80,56 @@ const RestaurantDescription = () => {
             </div>
 
            <div className={styles.have_food}>
-               <div className={styles.open_in_google}>
-                    <p>Open in google map</p>
+               <h2>Links</h2>
+               <div className={styles.res_links}> 
+                   <div className={styles.open_in_google}>
                     <a href={data.mapLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faMap}/></a>
-               </div>
-                {
+                        <span>google</span>
+                   </div>
+                   {
                     data.order && <div className={styles.order_now}>
-                        <p>Order Now</p>
                         <a href={data.order} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faBowlFood}/></a>
+                        <span>Order</span>
                     </div>
-                }
+                    }
+               </div>
+                
            </div>
 
-           {
+           <PopularDishes data={data}/>
+
+           {/* {
                 data.menucard.length > 0 && <div className={styles.menucard_container}>
                 <h2>Menu Card</h2>
                 <div className={styles.menu_card}>
                      <img src={data.menucard} alt="" />
                 </div>
                 </div>
-            }
-            
+            } */}
+
+              {/* reviews */}
+             <>
+             <h2>Reviews</h2>
+             <div className={styles.reviews_container}>
+               {
+                reviewsObj && reviewsObj.reviews.map((review,index)=>(
+                    <div className={styles.review}>
+                    <p>&ldquo; {review}  &rdquo;</p>
+                    </div>
+                   ))
+               }   
+              </div>
+             </>
+
+            {
+                nearbySnap && 
+                <>
+                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Sites"/>
+                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Entertainment"/>
+                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Shops"/> 
+                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Stay"/>
+                </>
+            }  
         </div>
      );
 }

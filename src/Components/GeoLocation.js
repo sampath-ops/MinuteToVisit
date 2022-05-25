@@ -46,7 +46,7 @@ const GeoLocation = ({nearByDocumentsHandler})=> {
           // console.log(`Longitude: ${crd.longitude}`); 
           // console.log(`More or less ${crd.accuracy} meters.`); 
           const { latitude, longitude } = crd;
-          const range = getGeohashRange(latitude, longitude, 7.45645); // NEED TO USE USER LATLNG
+          const range = getGeohashRange(11.67474180, 78.12372850, 7.45645); // NEED TO USE USER LATLNG
           
           const q = query(collection(db, "restaurants"), where("geohash", ">=", range.lower),
           where("geohash", "<=", range.upper));

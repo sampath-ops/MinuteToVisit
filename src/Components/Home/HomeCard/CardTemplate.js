@@ -1,10 +1,19 @@
 /*eslint-disable */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUtensils,faClapperboard,faCartShopping,faTree,faHotel,faSearch,faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faUtensils,faClapperboard,faCartShopping,faTree,faHotel,faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import styles from "./Card.module.css";
 import urlSlug from "url-slug"
-const CardTemplate = ({arr}) => {
+const CardTemplate = ({arr,title}) => {
+
+    const icons = {
+        Restaurants:faUtensils,
+        Entertainment:faClapperboard,
+        Shops:faCartShopping,
+        Sites:faTree,
+        Stay:faHotel
+    }
+
     return ( 
         arr.map((item,index)=>{
 
@@ -15,7 +24,7 @@ const CardTemplate = ({arr}) => {
                     <div className={styles.card_container}>
                         <img src={item.images[0]} alt="temp" />
                         <div className={styles.card_content}>
-                            <p className={styles.city_type}>Salem <FontAwesomeIcon icon={faUtensils}/></p>
+                            <p className={styles.city_type}>Salem <FontAwesomeIcon icon={icons[title]}/></p>
                             <h2>{item.name}</h2>
                             <p className='content_short'>{item.address}</p>
                             <Link to={`/restaurant/${slug}`}><button className={styles.know_more}>Know more <FontAwesomeIcon icon={faArrowRight}/></button></Link>

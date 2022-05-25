@@ -12,7 +12,7 @@ const RestaurantCardTemplate = ({restaurants}) => {
             <div className={styles.restaurant_section}>
                 <h2>Restaurants</h2>
                 <div className={styles.restaurant_card_layout}>
-                    <CardTemplate arr={restaurantsArr}/>
+                    <CardTemplate arr={restaurantsArr} title="Restaurants"/>
                 </div>
             </div>
         </div> 

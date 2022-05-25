@@ -1,18 +1,19 @@
-import RestaurantCardTemplate from "./RestaurantCardTemplate";
+/*eslint-disable*/
+import SectionCardTemplate from "./SectionCardTemplate";
 import { db } from "../../firebase.config";
 import { getDocs,collection } from "firebase/firestore";
 import { useEffect, useState } from "react";
-const Restaurant = () => {
+const Restaurant = ({sectionName}) => {
     const [restaurants,setRestaurantsSnap] = useState();
     useEffect(()=>{
         async function getRestaurants(){
-            setRestaurantsSnap(await getDocs(collection(db,"restaurants")));
+            setRestaurantsSnap(await getDocs(collection(db,sectionName)));
         }
         getRestaurants();
     },[])
     return ( 
         <div className="restaurant">
-            {restaurants && <RestaurantCardTemplate restaurants={restaurants}/>}
+            {restaurants && <SectionCardTemplate restaurants={restaurants}/>}
         </div>
      );
 }
