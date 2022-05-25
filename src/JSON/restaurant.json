@@ -1,14 +1,46 @@
 [
-   
     {
-        "name":"Kiliyur Falls",
-        "address":"Q6V2+X4Q, Killiyur Road, Pattipadi, Tamil Nadu 636601",
-        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2Fkiliyur%20falls%2FAF1QipM26ZI5qNccfdgUczySxlJQN3L3yhjNi4Hoyv-I%3Dw300-h225-p-k-no.jpeg?alt=media&token=b9331c77-f8d0-4e82-9352-e10fde0dedab","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2Fkiliyur%20falls%2FAF1QipMAF71WLjoO2P7AFk2hgmLOVGWwHwSZDW6Dn28L%3Ds437-k-no.jpeg?alt=media&token=bdcf814e-98a6-459b-a322-574d1b9f61ff","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2Fkiliyur%20falls%2FAF1QipMCq62SWpqd1BWgxU_zwjgY0rvZsJsVbaobub17%3Dw300-h225-p-k-no.jpeg?alt=media&token=470fefef-69b5-45f7-983f-6f0399c88c89","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2Fkiliyur%20falls%2FAF1QipMNaG44te2hW3mHN6VXIBE1kdAqowlQXmWI4RDy%3Dw300-h225-p-k-no.jpeg?alt=media&token=6c5cdb57-04dc-4012-bc60-8cec6e221ddb","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2Fkiliyur%20falls%2FAF1QipMlUwkfXHAqtyeBjoRkjbWN_0hbz_qbRBtd5Wx9%3Dw224-h398-k-no.jpeg?alt=media&token=bea1cc32-5e77-4177-92c6-bafdad7360d7"],
-        "geohash":"tdpe57zw9vnk",
-        "resCode":"M2V-SITES85008",
-        "mapLink":"https://goo.gl/maps/kP2z85Lg6pwNyG5R9",
+        "name":"Jerugumalai viewpoint",
+        "city": "Salem",
+        "address":"J5CQ+5X4, Unnamed Road, Jerugumalai R.F., Tamil Nadu 636204",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FJerugumalai%20viewpoint%2FAF1QipM8p_2iEoU6XxtnvmRFO7dAWqmpND4PEZQ1K3vf%3Dw122-h92-k-no.jfif?alt=media&token=af40cd1a-c54b-4056-a7a0-fdab2384a713","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FJerugumalai%20viewpoint%2FAF1QipMSElNZfNtHv5T8ikVGw7gR0b9wvvh3zhyCd6au%3Dw156-h114-p-k-no.jfif?alt=media&token=af999f79-f3a7-498b-8e39-77500a97467a","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FJerugumalai%20viewpoint%2FAF1QipMm24Hn3Idcnt0UYqoUl7y2IBoREe8R7KRhdh3s%3Dw300-h225-p-k-no.jfif?alt=media&token=23f82092-be53-4106-a525-89f63ec151a4","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FJerugumalai%20viewpoint%2FAF1QipN3cHLqOHSBau6cRpbjNqzMWqMhYFGy8bsZ_-E1%3Dw203-h114-k-no.jfif?alt=media&token=50051d5b-d622-4086-8898-aaeee00002ac","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FJerugumalai%20viewpoint%2FAF1QipNqs6bpqY07KqNpAoIIbn8iJm4N7sYo-6RMwqpR%3Dw300-h450-p-k-no.jfif?alt=media&token=7317cfd8-9b73-45fa-ba0d-60b238206779"],
+        "geohash":"tdpd5jn2f1nc",
+        "resCode":"M2V-SITES78041",
+        "mapLink":"https://goo.gl/maps/8Mm2d9XN7wi3zEj97",
         "approved":true,
-         "reviews":"TJgs0oiNttAv4unJBB57"
+        "reviews":"uE9s6yPTclP9K33sRFca"
+    },
+    {
+        "name":"Yercaud",
+        "city": "Salem",
+        "address":"Lake Road, Yercaud, Tamil Nadu 636602",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FYercaud%2FAF1QipMRV--gW0Zp3LfCijd67XlL_EmtntUlX2OXojK9%3Dw529-h298-k-no.jfif?alt=media&token=fcc16395-5472-46cb-93e5-a37cd56fecfd","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FYercaud%2FAF1QipMansRAJSjPLisyVGRg54xz7UEdu88H6aTnKT8o%3Dw300-h225-p-k-no.jfif?alt=media&token=49a2ef9b-0379-4986-b2ba-a0e6dcd4dcaa","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FYercaud%2FAF1QipN0WVnMBLkqjpqojIdm6IXLCXkewjD_2geBtK5R%3Dw397-h298-k-no.jfif?alt=media&token=15859300-1eed-48b2-b075-5d08f68f8545","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FYercaud%2FAF1QipN3cHLqOHSBau6cRpbjNqzMWqMhYFGy8bsZ_-E1%3Dw529-h298-k-no.jfif?alt=media&token=1ac2b70b-d017-436d-98a7-c242757c2ee0","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FYercaud%2FAF1QipNetNNwYOYmuLHaD4voUU5m_MpATg_tP6G5tn1j%3Dw147-h92-k-no.jfif?alt=media&token=7953240b-4405-4317-8172-77a90a3ff7eb"],
+        "geohash":"tdpe5dxkbjyr",
+        "resCode":"M2V-SITES31703",
+        "mapLink":"https://goo.gl/maps/peuJms1TwFhMKMLM9",
+        "approved":true,
+         "reviews":"MO3yyNUTTUkXUz9IPuAF"
+    },
+    {
+        "name":"Anna Park",
+        "city": "Salem",
+        "address":"30/68, Ondikadai, Salem - Yercaud Ghat Road, Yercaud, Tamil Nadu 636601",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FAnna%20Park%2FAF1QipM5SOLATpwFk53ZqmuGpE6SNBwU9BZyvif994U8%3Dw600-h450-p-k-no.jfif?alt=media&token=420eeee9-9378-4bfb-b06e-80a2e3973d4f","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FAnna%20Park%2FAF1QipNEExjgVqhlfK7jQWMPcZZltF8jem8bnpvIUWz0%3Dw300-h225-p-k-no.jfif?alt=media&token=36e2b712-174a-4a50-a0af-28252897495b","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FAnna%20Park%2FAF1QipNJGQQf2tcBBQpaJyrS7V5dD5UtvaBJS6GXg8gx%3Dw300-h225-p-k-no.jfif?alt=media&token=33daef46-cbce-4e45-9886-9084174a2c03","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FAnna%20Park%2FAF1QipNetNNwYOYmuLHaD4voUU5m_MpATg_tP6G5tn1j%3Dw147-h92-k-no.jfif?alt=media&token=021e7393-9535-4535-9159-25742bcd8e6d","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FAnna%20Park%2FAF1QipNrIcf5fd-R-1LCtrFqFsHhKrZa55Rj4m1YRvs6%3Dw203-h135-k-no.jfif?alt=media&token=30524b3c-5a8d-4563-bccc-bdf79b637408"],
+        "geohash":"tdpe5dzys8r5",
+        "resCode":"M2V-SITES31897",
+        "mapLink":"https://goo.gl/maps/PzHCY3yGH4nEFTMg8",
+        "approved":true,
+         "reviews":"iXrfCKXwAfB48JfIqJOp"
+    },
+    {
+        "name":"Paravasa Ulagam",
+        "city": "Salem",
+        "address":"Salem to Namakkal Highway, NH-7, KK Valasu, Mallur, Salem, Tamil Nadu 636203",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FParavasa%20Ulagam%2FAF1QipOZ1GtvDX-8Vn3UO-VKbnn5Ny-4K4Qt2IJ2U3KW%3Dw396-h298-k-no.jfif?alt=media&token=5cb8de13-da60-4baa-9ed2-6abf351209e3","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FParavasa%20Ulagam%2FAF1QipMJD4nGBVsrulQBsM4TksskWRP1QNtGsKyO6Hiz%3Dw300-h225-p-k-no.jfif?alt=media&token=6753399e-5ebe-4bdd-9a70-2c7016e8cf6b","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FParavasa%20Ulagam%2FAF1QipN1CZS7-3lRJoLIzpi-9zYsgkbYIJkrAE-wuyHf%3Dw203-h152-k-no.jfif?alt=media&token=ec6ee30c-5cc8-497f-92fd-5bb35369746f","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FParavasa%20Ulagam%2FAF1QipOZ1GtvDX-8Vn3UO-VKbnn5Ny-4K4Qt2IJ2U3KW%3Dw396-h298-k-no.jfif?alt=media&token=5cb8de13-da60-4baa-9ed2-6abf351209e3","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FParavasa%20Ulagam%2FAF1QipPtIemi0GNd-fvPg5-ZEolCs1xZJVQ_JhYpVHZl%3Dw156-h114-p-k-no.jfif?alt=media&token=79d41276-5326-4f92-b4f0-5f3fdc29f030"],
+        "geohash":"tdp9d67x1wk3",
+        "resCode":"M2V-SITES91338",
+        "mapLink":"https://goo.gl/maps/xbiQRJAG6XpbSjst7",
+        "approved":true,
+         "reviews":"IvLtgM181vQe2wrWMVwO"
     }
-
 ]

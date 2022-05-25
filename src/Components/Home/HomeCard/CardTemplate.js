@@ -20,7 +20,7 @@ const CardTemplate = ({arr,title}) => {
             const slug = urlSlug(item.name);
 
             return(
-                <Link to={`/restaurant/${urlSlug(item.name)}`} state={item} key={index}>
+                <Link to={`/${title.toLowerCase()}/${urlSlug(item.name)}`} state={item} key={index}>
                     <div className={styles.card_container}>
                         <img src={item.images[0]} alt="temp" />
                         <div className={styles.card_content}>

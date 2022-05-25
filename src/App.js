@@ -10,7 +10,7 @@ import Section from './Components/Restaurant/Section';
 // import Stay from './Components/Stay/Stay';
 import Footer from './Components/Footer/Footer';
 import UserProvider from './Components/Provider/UserProvider';
-import RestaurantDescription from './Components/Restaurant/RestaurantDescription/RestaurantDescription';
+import SectionDescription from './Components/Restaurant/RestaurantDescription/SectionDescription';
 import { useState } from 'react';
 import UploadRestaurant from './Components/Upload/Restaurant';
 import ScrollToTop from './Components/ScrollToTop';
@@ -43,7 +43,11 @@ function App() {
        <Routes>
          <Route exact path="/" element={<Home nearbySnap={nearbySnap}/>}/>
          <Route path="/restaurant" element={<Section sectionName="restaurants" title="Restaurants"/>}/>
-         <Route path="/restaurant/:id" element={<RestaurantDescription nearbySnap={nearbySnap}/>}/>
+         <Route path="/restaurants/:id" element={<SectionDescription collection="RestaurantsReview" nearbySnap={nearbySnap}/>}/>
+         <Route path="/entertainment/:id" element={<SectionDescription collection="EntertainmentReviews" nearbySnap={nearbySnap}/>}/>
+         <Route path="/shops/:id" element={<SectionDescription collection="ShopReviews" nearbySnap={nearbySnap}/>}/>
+         <Route path="/sites/:id" element={<SectionDescription collection="SitesReviews" nearbySnap={nearbySnap}/>}/>
+         <Route path="/stay/:id" element={<SectionDescription collection="RestaurantsReview" nearbySnap={nearbySnap}/>}/>
          <Route path="/entertainment" element={<Section sectionName="restaurants"/>}/>
          <Route path="/shop" element={<Section sectionName="restaurants"/>}/>
          <Route path="/sites" element={<Section sectionName="sites" title="Sites"/>}/>

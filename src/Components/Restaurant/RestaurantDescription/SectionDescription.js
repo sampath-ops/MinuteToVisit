@@ -13,7 +13,7 @@ import PopularDishes from "./PopularDishes";
 import HomeNear from "../../Home/HomeNear/HomeNear";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../../../firebase.config";
-const RestaurantDescription = ({nearbySnap}) => {
+const RestaurantDescription = ({nearbySnap,collection}) => {
     
     const [reviewsObj,setReviews] = useState();
 
@@ -49,7 +49,7 @@ const RestaurantDescription = ({nearbySnap}) => {
 
         // get reviews
         async function getReviews(){
-            const docRef = doc(db, "RestaurantReviews", data.reviews);
+            const docRef = doc(db, collection, data.reviews);
             const docSnap = await getDoc(docRef)
             setReviews(docSnap.data());
         }
@@ -96,7 +96,7 @@ const RestaurantDescription = ({nearbySnap}) => {
                 
            </div>
 
-           <PopularDishes data={data}/>
+           {data.popular && <PopularDishes data={data}/>}
 
            {/* {
                 data.menucard.length > 0 && <div className={styles.menucard_container}>
@@ -113,7 +113,7 @@ const RestaurantDescription = ({nearbySnap}) => {
              <div className={styles.reviews_container}>
                {
                 reviewsObj && reviewsObj.reviews.map((review,index)=>(
-                    <div className={styles.review}>
+                    <div className={styles.review} key={index}>
                     <p>&ldquo; {review}  &rdquo;</p>
                     </div>
                    ))
