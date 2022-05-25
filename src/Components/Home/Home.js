@@ -26,7 +26,7 @@ const Home = ({nearbySnap}) => {
                     <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Restaurants"/>
                     <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Entertainment"/>
                     <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Shops"/>
-                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Sites"/>
+                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.sites} title="Sites"/>
                     <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Stay"/>
                     </>
                 }

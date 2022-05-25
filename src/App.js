@@ -26,6 +26,7 @@ function App() {
   }
  
   if(Object.keys(nearbySnap).length > 0){
+      console.log(nearbySnap);
       nearbySnap.restaurant.forEach((doc) => {
       // doc.data() is never undefined for query doc snapshots
       // console.log(doc.data());
@@ -41,11 +42,11 @@ function App() {
       <ScrollToTop />
        <Routes>
          <Route exact path="/" element={<Home nearbySnap={nearbySnap}/>}/>
-         <Route path="/restaurant" element={<Section sectionName="restaurants"/>}/>
+         <Route path="/restaurant" element={<Section sectionName="restaurants" title="Restaurants"/>}/>
          <Route path="/restaurant/:id" element={<RestaurantDescription nearbySnap={nearbySnap}/>}/>
          <Route path="/entertainment" element={<Section sectionName="restaurants"/>}/>
          <Route path="/shop" element={<Section sectionName="restaurants"/>}/>
-         <Route path="/sites" element={<Section sectionName="restaurants"/>}/>
+         <Route path="/sites" element={<Section sectionName="sites" title="Sites"/>}/>
          <Route path="/stay" element={<Section sectionName="restaurants"/>}/>
          <Route path="/upload/restaurant" element={<UploadRestaurant/>}/>
        </Routes>
