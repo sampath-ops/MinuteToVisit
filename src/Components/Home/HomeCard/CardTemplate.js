@@ -8,7 +8,7 @@ const CardTemplate = ({arr,title}) => {
 
     const icons = {
         Restaurants:faUtensils,
-        Entertainment:faClapperboard,
+        Entertainments:faClapperboard,
         Shops:faCartShopping,
         Sites:faTree,
         Stay:faHotel

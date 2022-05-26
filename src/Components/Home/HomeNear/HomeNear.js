@@ -17,7 +17,7 @@ const HomeNear = ({nearbySnap,title,section}) => {
         <div className={styles.home_overview_container}>
             <h2 className={styles.card_layout_title}>{title} near you</h2>
             <HomeCard arr={home_res} title={title}/>
-            <div className={styles.see_all}><Link to="#">see all &gt;</Link></div>
+            <div className={styles.see_all}><Link to={`/${title.toLowerCase()}`}>see all &gt;</Link></div>
         </div>
      );
 }

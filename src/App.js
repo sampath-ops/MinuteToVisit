@@ -42,16 +42,18 @@ function App() {
       <ScrollToTop />
        <Routes>
          <Route exact path="/" element={<Home nearbySnap={nearbySnap}/>}/>
-         <Route path="/restaurant" element={<Section sectionName="restaurants" title="Restaurants"/>}/>
-         <Route path="/restaurants/:id" element={<SectionDescription collection="RestaurantsReview" nearbySnap={nearbySnap}/>}/>
-         <Route path="/entertainment/:id" element={<SectionDescription collection="EntertainmentReviews" nearbySnap={nearbySnap}/>}/>
-         <Route path="/shops/:id" element={<SectionDescription collection="ShopReviews" nearbySnap={nearbySnap}/>}/>
-         <Route path="/sites/:id" element={<SectionDescription collection="SitesReviews" nearbySnap={nearbySnap}/>}/>
-         <Route path="/stay/:id" element={<SectionDescription collection="RestaurantsReview" nearbySnap={nearbySnap}/>}/>
-         <Route path="/entertainment" element={<Section sectionName="restaurants"/>}/>
-         <Route path="/shop" element={<Section sectionName="restaurants"/>}/>
+         <Route path="/restaurants" element={<Section sectionName="restaurants" title="Restaurants"/>}/>
+         <Route path="/entertainments" element={<Section sectionName="entertainments" title="Entertainments"/>}/>
+         <Route path="/shops" element={<Section sectionName="shops" title="Shops"/>}/>
          <Route path="/sites" element={<Section sectionName="sites" title="Sites"/>}/>
          <Route path="/stay" element={<Section sectionName="restaurants"/>}/>
+        
+         <Route path="/restaurants/:id" element={<SectionDescription collection="RestaurantReviews" nearbySnap={nearbySnap}/>}/>
+         <Route path="/entertainments/:id" element={<SectionDescription collection="EntertainmentReviews" nearbySnap={nearbySnap}/>}/>
+         <Route path="/shops/:id" element={<SectionDescription collection="ShopReivews" nearbySnap={nearbySnap}/>}/>
+         <Route path="/sites/:id" element={<SectionDescription collection="SitesReviews" nearbySnap={nearbySnap}/>}/>
+         <Route path="/stay/:id" element={<SectionDescription collection="EntertainmentReviews" nearbySnap={nearbySnap}/>}/>
+  
          <Route path="/upload/restaurant" element={<UploadRestaurant/>}/>
        </Routes>
        <Footer/>

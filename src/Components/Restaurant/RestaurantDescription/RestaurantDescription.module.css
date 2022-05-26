@@ -75,7 +75,34 @@
     padding: 20px;
     margin-bottom: 80px;
 }
+.post_review > button{
+    display: block;
+    width: 80px;
+    padding: 10px;
+    background: none;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    background: #8E24AA;
+    border-radius: 20px;
+}
+.review_form{
+    margin-bottom: 50px;
+}
+.review_form > textarea{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 600px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
 @media(max-width:768px){
+    .dish_container > img{
+        width: 80px;
+        height: 80px;
+    }
     .restaurant_hero{
         grid-template-columns: auto;
         row-gap: 30px;
@@ -102,5 +129,11 @@
     }
     .popular_dishes_container{
         grid-template-columns: auto;
+    }
+    .reviews_container{
+        margin-bottom: 50px;
+    }
+    .review_form > textarea{
+        width: inherit;
     }
 }

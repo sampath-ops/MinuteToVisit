@@ -52,12 +52,20 @@ const GeoLocation = ({nearByDocumentsHandler})=> {
           where("geohash", "<=", range.upper));
           const sitesQuery = query(collection(db, "sites"), where("geohash", ">=", range.lower),
           where("geohash", "<=", range.upper));
+          const shopsQuery = query(collection(db, "shops"), where("geohash", ">=", range.lower),
+          where("geohash", "<=", range.upper));
+          const entertainmentsQuery = query(collection(db, "entertainments"), where("geohash", ">=", range.lower),
+          where("geohash", "<=", range.upper));
         
           const resQuerySnapshot = await getDocs(resQuery);
           const sitesQuerySnapshot = await getDocs(sitesQuery);
+          const shopsQuerySnapshot = await getDocs(shopsQuery);
+          const entertainmentsQuerySnapshot = await getDocs(entertainmentsQuery);
           nearByDocumentsHandler({
             restaurant:resQuerySnapshot,
-            sites:sitesQuerySnapshot
+            sites:sitesQuerySnapshot,
+            shops:shopsQuerySnapshot,
+            entertainments:entertainmentsQuerySnapshot
           })
         }
         userPosition();

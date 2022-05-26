@@ -11,11 +11,33 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMap, faBowlFood } from "@fortawesome/free-solid-svg-icons";
 import PopularDishes from "./PopularDishes";
 import HomeNear from "../../Home/HomeNear/HomeNear";
-import { doc, getDoc } from "firebase/firestore";
+import { doc, getDoc, updateDoc } from "firebase/firestore";
 import { db } from "../../../firebase.config";
+import {UserContext} from "../../Provider/UserProvider";
+import { useContext } from "react";
 const RestaurantDescription = ({nearbySnap,collection}) => {
-    
+
+    const user = useContext(UserContext);
     const [reviewsObj,setReviews] = useState();
+    const [userReview,setUserReview] = useState("");
+
+    const changeUserReviewHandler = (e)=>{
+        setUserReview(e.target.value);
+    }
+
+    const postReview = async(e)=>{
+        e.preventDefault();
+        reviewsObj.reviews.unshift(userReview);
+
+        // update reviews array
+        const docRef = doc(db, collection, data.reviews);
+        await updateDoc(docRef, {
+        reviews: reviewsObj.reviews
+        }).then(()=>{
+            console.log("Review added");
+        });
+        setUserReview("")
+    }
 
     // mapbox literals
     mapboxgl.accessToken = 'pk.eyJ1Ijoic2FtcGF0aDA0IiwiYSI6ImNrcTNkNjJsejA0NjMycW50cWlkd29laTMifQ.b1-zGv3daR0_GT3zEyOqjg';
@@ -58,7 +80,7 @@ const RestaurantDescription = ({nearbySnap,collection}) => {
 
     },[]);
 
-    console.log(reviewsObj)
+    // console.log(reviewsObj)
 
     return ( 
         <div className={styles.restaurant_description_container}>
@@ -108,26 +130,40 @@ const RestaurantDescription = ({nearbySnap,collection}) => {
             } */}
 
               {/* reviews */}
-             <>
-             <h2>Reviews</h2>
-             <div className={styles.reviews_container}>
-               {
-                reviewsObj && reviewsObj.reviews.map((review,index)=>(
-                    <div className={styles.review} key={index}>
-                    <p>&ldquo; {review}  &rdquo;</p>
+
+            <h2>Reviews</h2>
+            {
+                reviewsObj && 
+                <>
+                <div className={styles.reviews_container}>
+                    {
+                        reviewsObj.reviews.map((review,index)=>(
+                        <div className={styles.review} key={index}>
+                        <p>&ldquo; {review}  &rdquo;</p>
+                        </div>
+                        ))
+                    }   
+                </div>
+                {
+                    user && <form className={styles.review_form} onSubmit={postReview}>
+                    <h2>Write a review</h2>
+                    <textarea name="" id="" cols="30" rows="10" value={userReview} onChange={changeUserReviewHandler}></textarea>
+                    <div className={styles.post_review}>
+                        <button type="submit">Post</button>
                     </div>
-                   ))
-               }   
-              </div>
-             </>
+                </form>
+                }
+                </>
+            }
 
             {
                 nearbySnap && 
                 <>
-                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Sites"/>
-                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Entertainment"/>
-                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Shops"/> 
-                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Stay"/>
+                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Restaurants"/>
+                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.sites} title="Sites"/>
+                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.entertainments} title="Entertainments"/>
+                <HomeNear nearbySnap={nearbySnap} section={nearbySnap.shops} title="Shops"/> 
+                {/* <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Stay"/> */}
                 </>
             }  
         </div>

@@ -1,46 +1,58 @@
 [
     {
-        "name":"Jerugumalai viewpoint",
-        "city": "Salem",
-        "address":"J5CQ+5X4, Unnamed Road, Jerugumalai R.F., Tamil Nadu 636204",
-        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FJerugumalai%20viewpoint%2FAF1QipM8p_2iEoU6XxtnvmRFO7dAWqmpND4PEZQ1K3vf%3Dw122-h92-k-no.jfif?alt=media&token=af40cd1a-c54b-4056-a7a0-fdab2384a713","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FJerugumalai%20viewpoint%2FAF1QipMSElNZfNtHv5T8ikVGw7gR0b9wvvh3zhyCd6au%3Dw156-h114-p-k-no.jfif?alt=media&token=af999f79-f3a7-498b-8e39-77500a97467a","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FJerugumalai%20viewpoint%2FAF1QipMm24Hn3Idcnt0UYqoUl7y2IBoREe8R7KRhdh3s%3Dw300-h225-p-k-no.jfif?alt=media&token=23f82092-be53-4106-a525-89f63ec151a4","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FJerugumalai%20viewpoint%2FAF1QipN3cHLqOHSBau6cRpbjNqzMWqMhYFGy8bsZ_-E1%3Dw203-h114-k-no.jfif?alt=media&token=50051d5b-d622-4086-8898-aaeee00002ac","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FJerugumalai%20viewpoint%2FAF1QipNqs6bpqY07KqNpAoIIbn8iJm4N7sYo-6RMwqpR%3Dw300-h450-p-k-no.jfif?alt=media&token=7317cfd8-9b73-45fa-ba0d-60b238206779"],
-        "geohash":"tdpd5jn2f1nc",
-        "resCode":"M2V-SITES78041",
-        "mapLink":"https://goo.gl/maps/8Mm2d9XN7wi3zEj97",
+        "name": "ARRS Multiplex Theater",
+        "address":"2-94-95, Meyyanur Bypass Rd, Meyyanur, Salem, Tamil Nadu 636004",
+        "city":"Salem",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FARRS%20theater%2FAF1QipMHHRyZnHNpGjCr9LNeWvUXWcEQz3ng7_TP3P3G%3Dw397-h298-k-no.jpeg?alt=media&token=9afe785e-6fb4-4943-a6b5-e28f63c08ca0","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FARRS%20theater%2FAF1QipMU8P6OWPyz7QVUZ-NwVN4Z6qqQDmOzLJ747Zs%3Dw203-h270-k-no.jpeg?alt=media&token=a135771a-0e45-4d62-9310-7901ac362f94","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FARRS%20theater%2FAF1QipMp6gBS27YXNjmbU8pWjyxQ4uOGm7EsUQMHNTkP%3Dw360-h270-k-no.jpeg?alt=media&token=2e3dcb2b-7f9a-4a4d-a4b2-c0c0cebacec7"],
+        "geohash":"tdpd3uxnxmv9",
+        "resCode":"M2V-RES65111",
+        "mapLink":"https://goo.gl/maps/zqcXbErzAnzWU5hx8",
         "approved":true,
-        "reviews":"uE9s6yPTclP9K33sRFca"
+        "reviews":"qLZDyDF5wqKHxdto2T9A"
     },
     {
-        "name":"Yercaud",
-        "city": "Salem",
-        "address":"Lake Road, Yercaud, Tamil Nadu 636602",
-        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FYercaud%2FAF1QipMRV--gW0Zp3LfCijd67XlL_EmtntUlX2OXojK9%3Dw529-h298-k-no.jfif?alt=media&token=fcc16395-5472-46cb-93e5-a37cd56fecfd","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FYercaud%2FAF1QipMansRAJSjPLisyVGRg54xz7UEdu88H6aTnKT8o%3Dw300-h225-p-k-no.jfif?alt=media&token=49a2ef9b-0379-4986-b2ba-a0e6dcd4dcaa","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FYercaud%2FAF1QipN0WVnMBLkqjpqojIdm6IXLCXkewjD_2geBtK5R%3Dw397-h298-k-no.jfif?alt=media&token=15859300-1eed-48b2-b075-5d08f68f8545","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FYercaud%2FAF1QipN3cHLqOHSBau6cRpbjNqzMWqMhYFGy8bsZ_-E1%3Dw529-h298-k-no.jfif?alt=media&token=1ac2b70b-d017-436d-98a7-c242757c2ee0","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FYercaud%2FAF1QipNetNNwYOYmuLHaD4voUU5m_MpATg_tP6G5tn1j%3Dw147-h92-k-no.jfif?alt=media&token=7953240b-4405-4317-8172-77a90a3ff7eb"],
-        "geohash":"tdpe5dxkbjyr",
-        "resCode":"M2V-SITES31703",
-        "mapLink":"https://goo.gl/maps/peuJms1TwFhMKMLM9",
+        "name":"INOX theater",
+        "address":"Rajiv Gandhi Street Meyyanur INOX Leisure Ltd.,1st Floor, Reliance Mall, Five Roads, Junction, Salem, Tamil Nadu 636005",
+        "city":"Salem",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FINOX%20theater%2FAF1QipNHYru_6fari-a9aOg7URxL2yAxC9jnrwB-E5cR%3Dw300-h450-p-k-no.jpeg?alt=media&token=cbc6c38d-2e03-4cfb-8cb0-af13d93887ed","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FINOX%20theater%2FAF1QipNw2dJR-LLQbuGCKv1rhoyZFNtLvJeLnVV1bijI%3Ds451-k-no.jpeg?alt=media&token=a6994203-ea39-489b-b60b-2db9924847b0","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FINOX%20theater%2FAF1QipNxDG8zj88yILL87Nd8i3-tWHzsCevfsETtpQCD%3Dw300-h225-p-k-no.jpeg?alt=media&token=a224e2f7-ff7c-44a6-8fca-397f7a4deb0e"],
+        "geohash":"tdpd3vyf3sdu",
+        "resCode":"M2V-RES52582",
+        "mapLink":"https://goo.gl/maps/M2kJZLqdi8C7kiTH7",
         "approved":true,
-         "reviews":"MO3yyNUTTUkXUz9IPuAF"
+        "reviews":"dHQSJnXkjN48ce9jEGgk"
     },
     {
-        "name":"Anna Park",
-        "city": "Salem",
-        "address":"30/68, Ondikadai, Salem - Yercaud Ghat Road, Yercaud, Tamil Nadu 636601",
-        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FAnna%20Park%2FAF1QipM5SOLATpwFk53ZqmuGpE6SNBwU9BZyvif994U8%3Dw600-h450-p-k-no.jfif?alt=media&token=420eeee9-9378-4bfb-b06e-80a2e3973d4f","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FAnna%20Park%2FAF1QipNEExjgVqhlfK7jQWMPcZZltF8jem8bnpvIUWz0%3Dw300-h225-p-k-no.jfif?alt=media&token=36e2b712-174a-4a50-a0af-28252897495b","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FAnna%20Park%2FAF1QipNJGQQf2tcBBQpaJyrS7V5dD5UtvaBJS6GXg8gx%3Dw300-h225-p-k-no.jfif?alt=media&token=33daef46-cbce-4e45-9886-9084174a2c03","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FAnna%20Park%2FAF1QipNetNNwYOYmuLHaD4voUU5m_MpATg_tP6G5tn1j%3Dw147-h92-k-no.jfif?alt=media&token=021e7393-9535-4535-9159-25742bcd8e6d","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FAnna%20Park%2FAF1QipNrIcf5fd-R-1LCtrFqFsHhKrZa55Rj4m1YRvs6%3Dw203-h135-k-no.jfif?alt=media&token=30524b3c-5a8d-4563-bccc-bdf79b637408"],
-        "geohash":"tdpe5dzys8r5",
-        "resCode":"M2V-SITES31897",
-        "mapLink":"https://goo.gl/maps/PzHCY3yGH4nEFTMg8",
+        "name":"Kailash Prakash Theater Salem",
+        "address":"43, Gugai - Erumapalayam Rd, Kitchipalayam, Salem, Tamil Nadu 636015",
+        "city":"Salem",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2Fprakash%20theater%2FAF1QipMp6gBS27YXNjmbU8pWjyxQ4uOGm7EsUQMHNTkP%3Ds400-k-no.jpeg?alt=media&token=ce1c4d14-fa30-4872-b553-ecfb8016a555","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2Fprakash%20theater%2FAF1QipO8ZFrnLe3oiUKHwXSFYlgsqUuj4j7cvhGvY0br%3Ds400-k-no.jpeg?alt=media&token=f207e549-a869-4541-ac50-ddd1617d5f5a","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2Fprakash%20theater%2FAF1QipP6aWjGsi2pwDOAXMdoQUvtCa5xuhWbUVCjkOog%3Dw203-h152-k-no.jpeg?alt=media&token=96dc9135-ddad-4440-86bf-fecf91879e92"],
+        "geohash":"tdpd697ym3mk",
+        "resCode":"M2V-RES97178",
+        "mapLink":"https://goo.gl/maps/ys8UK6FJabHauAZQ8",
         "approved":true,
-         "reviews":"iXrfCKXwAfB48JfIqJOp"
+        "reviews":"OZWJEoWZJ02SGKmiClPb"
     },
     {
-        "name":"Paravasa Ulagam",
-        "city": "Salem",
-        "address":"Salem to Namakkal Highway, NH-7, KK Valasu, Mallur, Salem, Tamil Nadu 636203",
-        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FParavasa%20Ulagam%2FAF1QipOZ1GtvDX-8Vn3UO-VKbnn5Ny-4K4Qt2IJ2U3KW%3Dw396-h298-k-no.jfif?alt=media&token=5cb8de13-da60-4baa-9ed2-6abf351209e3","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FParavasa%20Ulagam%2FAF1QipMJD4nGBVsrulQBsM4TksskWRP1QNtGsKyO6Hiz%3Dw300-h225-p-k-no.jfif?alt=media&token=6753399e-5ebe-4bdd-9a70-2c7016e8cf6b","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FParavasa%20Ulagam%2FAF1QipN1CZS7-3lRJoLIzpi-9zYsgkbYIJkrAE-wuyHf%3Dw203-h152-k-no.jfif?alt=media&token=ec6ee30c-5cc8-497f-92fd-5bb35369746f","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FParavasa%20Ulagam%2FAF1QipOZ1GtvDX-8Vn3UO-VKbnn5Ny-4K4Qt2IJ2U3KW%3Dw396-h298-k-no.jfif?alt=media&token=5cb8de13-da60-4baa-9ed2-6abf351209e3","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Sites%2FSalem%2FParavasa%20Ulagam%2FAF1QipPtIemi0GNd-fvPg5-ZEolCs1xZJVQ_JhYpVHZl%3Dw156-h114-p-k-no.jfif?alt=media&token=79d41276-5326-4f92-b4f0-5f3fdc29f030"],
-        "geohash":"tdp9d67x1wk3",
-        "resCode":"M2V-SITES91338",
-        "mapLink":"https://goo.gl/maps/xbiQRJAG6XpbSjst7",
+        "name":"K.S Theatre",
+        "address":"No. 9a, Pensioner Lane, Linemedu, Salem, Tamil Nadu 636006",
+        "city":"Salem",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FK.S.theater%2FAF1QipNaza9_cnmropSa1bEEpsc5NKiIqZy8iGAe5IU9%3Ds451-k-no.jpeg?alt=media&token=7cba726d-5eec-4e51-87b7-e43087df4a5e","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FK.S.theater%2FAF1QipONHxPN-qxRNvBSE4UBQqEIdLynGnuNI-bUqlNY%3Ds451-k-no.jpeg?alt=media&token=29452581-3907-46ec-8373-bca4181e0141"],
+        "geohash":"tdpd4rep48e5",
+        "resCode":"M2V-RES89650",
+        "mapLink":"https://goo.gl/maps/LW1nR4ABLBdKMuna8",
         "approved":true,
-         "reviews":"IvLtgM181vQe2wrWMVwO"
+        "reviews":"O98dQqnlSXsPFi4v4BOR"
+    },
+    {
+        "name":"Aascars Multiplex",
+        "address":"194/55, Kallarampatty Main Rd, Erumapalayam, Salem, Tamil Nadu 636015",
+        "city":"Salem",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FAascars%20theater%2FAF1QipMSfzRDec8byp4lWk5d3GqcC7tgc9laTtbYDJhI%3Ds580-k-no.jpeg?alt=media&token=2624568a-0c8e-40b7-98f4-f0fd4425a416","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FAascars%20theater%2FAF1QipN2M849tlSdv4Ohce6HiNpMj9tD1v-9ySZABlGF%3Dw300-h225-p-k-no.jpeg?alt=media&token=a2716da4-6c5c-4102-8064-e4f8e69057de","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FAascars%20theater%2FAF1QipNblLU4B8cUk17LTlDsyEXg7L1RjHIg9thcf4yU%3Ds435-k-no.jpeg?alt=media&token=25d16d15-71f8-4738-81c5-acade7639ad9","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FAascars%20theater%2FAF1QipNjuXXqNG935uKITTsgE2zgzgAmXaQE1b3h_FWA%3Dw156-h114-p-k-no.jpeg?alt=media&token=a67efbdb-c5c7-4d8a-9f18-c7c89ed4e5a2"],
+        "geohash":"tdpd68gw8gus",
+        "resCode":"M2V-RES71575",
+        "mapLink":"https://goo.gl/maps/E7SeuuHNbjGDQFVs9",
+        "approved":true,
+        "reviews":"4SeVdaJJoOf0saIhqkY6"
     }
+
 ]

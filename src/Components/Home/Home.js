@@ -1,7 +1,7 @@
 import styles from "./home.module.css";
 import HomeNear from "./HomeNear/HomeNear";
 import hero from "../../Images/hero.svg";
-import Import from "../../importData";
+// import Import from "../../importData";
 const Home = ({nearbySnap}) => {
 
     return (  
@@ -24,13 +24,13 @@ const Home = ({nearbySnap}) => {
                     nearbySnap && 
                     <>
                     <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Restaurants"/>
-                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Entertainment"/>
-                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Shops"/>
+                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.entertainments} title="Entertainments"/>
+                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.shops} title="Shops"/>
                     <HomeNear nearbySnap={nearbySnap} section={nearbySnap.sites} title="Sites"/>
-                    <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Stay"/>
+                    {/* <HomeNear nearbySnap={nearbySnap} section={nearbySnap.restaurant} title="Stay"/> */}
                     </>
                 }
-            <Import/>
+            {/* <Import/> */}
             </div>
            
         </div>
