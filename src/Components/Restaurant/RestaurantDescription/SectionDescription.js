@@ -34,7 +34,7 @@ const RestaurantDescription = ({nearbySnap,collection}) => {
         await updateDoc(docRef, {
         reviews: reviewsObj.reviews
         }).then(()=>{
-            console.log("Review added");
+            window.alert("Review added");
         });
         setUserReview("")
     }
