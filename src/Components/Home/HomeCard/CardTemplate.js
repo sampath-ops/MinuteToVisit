@@ -1,6 +1,6 @@
 /*eslint-disable */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUtensils,faClapperboard,faCartShopping,faTree,faHotel,faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faUtensils,faClapperboard,faCartShopping,faTree,faArrowRight, faHospital } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import styles from "./Card.module.css";
 import urlSlug from "url-slug"
@@ -11,7 +11,7 @@ const CardTemplate = ({arr,title}) => {
         Entertainments:faClapperboard,
         Shops:faCartShopping,
         Sites:faTree,
-        Stay:faHotel
+        Hospitals:faHospital
     }
 
     return ( 

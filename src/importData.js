@@ -7,7 +7,7 @@ const Import = () => {
         console.log(data);
         // Add a new document with a generated id.
         data.map(async(obj)=>{
-            await addDoc(collection(db, "entertainments"),obj);
+            await addDoc(collection(db, "hospitals"),obj);
         });
     }
     return ( 

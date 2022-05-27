@@ -56,16 +56,21 @@ const GeoLocation = ({nearByDocumentsHandler})=> {
           where("geohash", "<=", range.upper));
           const entertainmentsQuery = query(collection(db, "entertainments"), where("geohash", ">=", range.lower),
           where("geohash", "<=", range.upper));
+          const hospitalsQuery = query(collection(db, "hospitals"), where("geohash", ">=", range.lower),
+          where("geohash", "<=", range.upper));
         
           const resQuerySnapshot = await getDocs(resQuery);
           const sitesQuerySnapshot = await getDocs(sitesQuery);
           const shopsQuerySnapshot = await getDocs(shopsQuery);
           const entertainmentsQuerySnapshot = await getDocs(entertainmentsQuery);
+          const hospitalsQuerySnapshot = await getDocs(hospitalsQuery);
+
           nearByDocumentsHandler({
             restaurant:resQuerySnapshot,
             sites:sitesQuerySnapshot,
             shops:shopsQuerySnapshot,
-            entertainments:entertainmentsQuerySnapshot
+            entertainments:entertainmentsQuerySnapshot,
+            hospitals:hospitalsQuerySnapshot
           })
         }
         userPosition();

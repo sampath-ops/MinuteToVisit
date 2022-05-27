@@ -1,6 +1,6 @@
 import styles from "./navbar.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faUtensils,faClapperboard,faCartShopping,faTree} from '@fortawesome/free-solid-svg-icons'
+import {faUtensils,faClapperboard,faCartShopping,faTree, faHospital} from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from "react-router-dom";
 import Logo from "../Logo";
 import SearchBar from "../SearchBar";
@@ -21,7 +21,7 @@ const Navbar = () => {
                         <NavLink to="/entertainments"><li><FontAwesomeIcon icon={faClapperboard} />Entertainment</li></NavLink>
                         <NavLink to="/shops"><li><FontAwesomeIcon icon={faCartShopping} />Shop</li></NavLink>
                         <NavLink to="/sites"><li><FontAwesomeIcon icon={faTree} />Sites</li></NavLink>
-                        {/* <NavLink to="/stay"><li><FontAwesomeIcon icon={faHotel} />Stay</li></NavLink>   */}
+                        <NavLink to="/hospitals"><li><FontAwesomeIcon icon={faHospital} />Hospitals</li></NavLink>  
                     </ul>
                 </div>
                 <SearchBar/>

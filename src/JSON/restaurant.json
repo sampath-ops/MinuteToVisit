@@ -1,58 +1,64 @@
 [
     {
-        "name": "ARRS Multiplex Theater",
-        "address":"2-94-95, Meyyanur Bypass Rd, Meyyanur, Salem, Tamil Nadu 636004",
+        "name":"Manipal Hospitals Salem",
+        "address":"Dalmia Board, Salem - Bangalore Highway, Vellakalpatti, Salem, Tamil Nadu 636012",
         "city":"Salem",
-        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FARRS%20theater%2FAF1QipMHHRyZnHNpGjCr9LNeWvUXWcEQz3ng7_TP3P3G%3Dw397-h298-k-no.jpeg?alt=media&token=9afe785e-6fb4-4943-a6b5-e28f63c08ca0","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FARRS%20theater%2FAF1QipMU8P6OWPyz7QVUZ-NwVN4Z6qqQDmOzLJ747Zs%3Dw203-h270-k-no.jpeg?alt=media&token=a135771a-0e45-4d62-9310-7901ac362f94","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FARRS%20theater%2FAF1QipMp6gBS27YXNjmbU8pWjyxQ4uOGm7EsUQMHNTkP%3Dw360-h270-k-no.jpeg?alt=media&token=2e3dcb2b-7f9a-4a4d-a4b2-c0c0cebacec7"],
-        "geohash":"tdpd3uxnxmv9",
-        "resCode":"M2V-RES65111",
-        "mapLink":"https://goo.gl/maps/zqcXbErzAnzWU5hx8",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FManipal%20hospital%2FAF1QipNecDLLfM23hOoez0cMvMif18vl0eE-4cw074Xp%3Dw298-h298-k-no.jpeg?alt=media&token=9e1804c6-1a3b-463d-ab84-4364ae70983a","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FManipal%20hospital%2FAF1QipPAwT1ZICgF9KV-mmOqYlJyeXjEiLGkupSA4CDN%3Dw447-h298-k-no.png?alt=media&token=98853844-d973-42d1-aa33-18266806cd42","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FManipal%20hospital%2FAF1QipPNzrlrQfHzE4BLHwkG3kqDA0xdAXjgwrpt9qul%3Ds624-k-no.png?alt=media&token=3753db5c-a890-4765-a9b5-0a741008fbdc"],
+        "geohash":"tdpd978snr6p",
+        "resCode":"M2V-RES49014",
+        "mapLink":"https://g.page/manipal-hospitals-salem?share",
         "approved":true,
-        "reviews":"qLZDyDF5wqKHxdto2T9A"
+        "reviews":"MUAHUnNFfnonHYs5a47T"
     },
     {
-        "name":"INOX theater",
-        "address":"Rajiv Gandhi Street Meyyanur INOX Leisure Ltd.,1st Floor, Reliance Mall, Five Roads, Junction, Salem, Tamil Nadu 636005",
+        "name":"Aishwaryam Speciality Hospital",
+        "address":"M4CG+JPF, 114/1 Salem - Bangalore, Bypass Road, Nedunchalai Nagar, Salem, Tamil Nadu 636005",
         "city":"Salem",
-        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FINOX%20theater%2FAF1QipNHYru_6fari-a9aOg7URxL2yAxC9jnrwB-E5cR%3Dw300-h450-p-k-no.jpeg?alt=media&token=cbc6c38d-2e03-4cfb-8cb0-af13d93887ed","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FINOX%20theater%2FAF1QipNw2dJR-LLQbuGCKv1rhoyZFNtLvJeLnVV1bijI%3Ds451-k-no.jpeg?alt=media&token=a6994203-ea39-489b-b60b-2db9924847b0","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FINOX%20theater%2FAF1QipNxDG8zj88yILL87Nd8i3-tWHzsCevfsETtpQCD%3Dw300-h225-p-k-no.jpeg?alt=media&token=a224e2f7-ff7c-44a6-8fca-397f7a4deb0e"],
-        "geohash":"tdpd3vyf3sdu",
-        "resCode":"M2V-RES52582",
-        "mapLink":"https://goo.gl/maps/M2kJZLqdi8C7kiTH7",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FAishwaryam%20Speciality%20Hospital%2FAF1QipMGZVqAyTTDlMtcBuQ9XBM8O9CB3bF10LWpBd7z%3Ds412-k-no.jfif?alt=media&token=a0b2e2c4-67c5-4d58-91be-953f7372926d","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FAishwaryam%20Speciality%20Hospital%2FAF1QipO1TqBC-A9nZARXGCYNoRtRk4G3vEVQjZlFfK-6%3Dw408-h272-k-no.jfif?alt=media&token=f001c204-60e4-440b-9468-7de370eafe9a","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FAishwaryam%20Speciality%20Hospital%2FAF1QipMQDsQk5WPFMpqVtAUERVjP3KS3YOq_0y9HKQzg%3Dw203-h152-k-no.jfif?alt=media&token=9e30a497-6153-4f52-99e2-a69f324bf018","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FAishwaryam%20Speciality%20Hospital%2FAF1QipPzbZ6JkbBbJ4TVwS9u05ZZV0RntEjBgg8YtK6Q%3Dw125-h91-p-k-no.jfif?alt=media&token=807903c7-fb95-488d-b26a-d49037243248"],
+        "geohash":"tdpd3y3ppcbw",
+        "resCode":"M2V-RES85113",
+        "mapLink":"https://goo.gl/maps/EwGrLr2wMtQ8xiSv7",
         "approved":true,
-        "reviews":"dHQSJnXkjN48ce9jEGgk"
+        "reviews":"05zZJ2ljUN2ZIwioMgao"
     },
     {
-        "name":"Kailash Prakash Theater Salem",
-        "address":"43, Gugai - Erumapalayam Rd, Kitchipalayam, Salem, Tamil Nadu 636015",
+        "name":"Shanmuga Hospital Pvt Ltd",
+        "address":"24, Sarada College Rd, LRN Colony, Chinna Pudur, Salem, Tamil Nadu 636007",
         "city":"Salem",
-        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2Fprakash%20theater%2FAF1QipMp6gBS27YXNjmbU8pWjyxQ4uOGm7EsUQMHNTkP%3Ds400-k-no.jpeg?alt=media&token=ce1c4d14-fa30-4872-b553-ecfb8016a555","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2Fprakash%20theater%2FAF1QipO8ZFrnLe3oiUKHwXSFYlgsqUuj4j7cvhGvY0br%3Ds400-k-no.jpeg?alt=media&token=f207e549-a869-4541-ac50-ddd1617d5f5a","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2Fprakash%20theater%2FAF1QipP6aWjGsi2pwDOAXMdoQUvtCa5xuhWbUVCjkOog%3Dw203-h152-k-no.jpeg?alt=media&token=96dc9135-ddad-4440-86bf-fecf91879e92"],
-        "geohash":"tdpd697ym3mk",
-        "resCode":"M2V-RES97178",
-        "mapLink":"https://goo.gl/maps/ys8UK6FJabHauAZQ8",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FShanmuga%20hospital%2FAF1QipMthx7B53OBlJji_dL9JgM38PBWLM2yvFVIhG18%3Ds406-k-no.jpeg?alt=media&token=6ae88a59-292f-4792-a581-433b62ee6ea5","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FShanmuga%20hospital%2FAF1QipMvmCmnGTzwDDYFR0bF1LfyWzbuJSwD6D8Ba8F7%3Dw529-h298-k-no.jpeg?alt=media&token=1e2aaafb-717f-4ec4-81fc-a86176285255",
+        "https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FShanmuga%20hospital%2FAF1QipOd5h4MaT4ekZdEv7rMQtOoF6UBFv8HSqnKxeAN%3Ds338-k-no.jpeg?alt=media&token=a1dd142d-45f4-4d1f-ad93-ac261c0e079c"],
+        "geohash":"tdpd6rk7dqpj",
+        "resCode":"M2V-RES23268",
+        "mapLink":"https://goo.gl/maps/FzxYTmrn8FgCQDBi8",
         "approved":true,
-        "reviews":"OZWJEoWZJ02SGKmiClPb"
+        "reviews":"8gJ8BVfq67m696uBbagr"
     },
     {
-        "name":"K.S Theatre",
-        "address":"No. 9a, Pensioner Lane, Linemedu, Salem, Tamil Nadu 636006",
+        "name":"St. Mary's Hospital",
+        "address":"203, Arisipalayam Main Rd, Narayanasamypuram, Indian Bank Colony, Arisipalayam, Salem, Tamil Nadu 636009",
         "city":"Salem",
-        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FK.S.theater%2FAF1QipNaza9_cnmropSa1bEEpsc5NKiIqZy8iGAe5IU9%3Ds451-k-no.jpeg?alt=media&token=7cba726d-5eec-4e51-87b7-e43087df4a5e","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FK.S.theater%2FAF1QipONHxPN-qxRNvBSE4UBQqEIdLynGnuNI-bUqlNY%3Ds451-k-no.jpeg?alt=media&token=29452581-3907-46ec-8373-bca4181e0141"],
-        "geohash":"tdpd4rep48e5",
-        "resCode":"M2V-RES89650",
-        "mapLink":"https://goo.gl/maps/LW1nR4ABLBdKMuna8",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FSt.%20Mary's%20Hospital%2FAF1QipOpnACtWB9MM2h3MPPB4HTq0d96kN4rHX8UYEgG%3Dw408-h544-k-no.jfif?alt=media&token=28d73c31-eb99-42a6-88c0-ba8f00c4b853","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FSt.%20Mary's%20Hospital%2FAF1QipOyo4ozz9zkPf0IDjo8GI1z9a3FH2jDOEBmyaW4%3Dw240-h360-p-k-no.jfif?alt=media&token=4b77abf4-b759-41de-9f40-7c269ef72af2","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FSt.%20Mary's%20Hospital%2FAF1QipNZl3Kfoattv8t_VilXGbjmpzGYd9d-p3PhppmJ%3Dw125-h91-p-k-no.jfif?alt=media&token=d0c9ceb1-23f0-4dba-84e3-a8cf0d9eb3d7","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FSt.%20Mary's%20Hospital%2FAF1QipNZl3Kfoattv8t_VilXGbjmpzGYd9d-p3PhppmJ%3Dw125-h91-p-k-no.jfif?alt=media&token=d0c9ceb1-23f0-4dba-84e3-a8cf0d9eb3d7"],
+        "geohash":"tdpd65phjvqw",
+        "resCode":"M2V-RES81471",
+        "mapLink":"https://goo.gl/maps/DkQKSabt9oztDxYy9",
         "approved":true,
-        "reviews":"O98dQqnlSXsPFi4v4BOR"
+        "reviews":"FLh8q9We1ZjcKjMmp12K"
     },
     {
-        "name":"Aascars Multiplex",
-        "address":"194/55, Kallarampatty Main Rd, Erumapalayam, Salem, Tamil Nadu 636015",
+        "name":"Priyam Speciality Hospital",
+        "address":"Bangalore Bypass Road, Asian Highway 43, Kondalampatti, Salem, Tamil Nadu 636010",
         "city":"Salem",
-        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FAascars%20theater%2FAF1QipMSfzRDec8byp4lWk5d3GqcC7tgc9laTtbYDJhI%3Ds580-k-no.jpeg?alt=media&token=2624568a-0c8e-40b7-98f4-f0fd4425a416","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FAascars%20theater%2FAF1QipN2M849tlSdv4Ohce6HiNpMj9tD1v-9ySZABlGF%3Dw300-h225-p-k-no.jpeg?alt=media&token=a2716da4-6c5c-4102-8064-e4f8e69057de","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FAascars%20theater%2FAF1QipNblLU4B8cUk17LTlDsyEXg7L1RjHIg9thcf4yU%3Ds435-k-no.jpeg?alt=media&token=25d16d15-71f8-4738-81c5-acade7639ad9","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Entertainment%2Fsalem%2FAascars%20theater%2FAF1QipNjuXXqNG935uKITTsgE2zgzgAmXaQE1b3h_FWA%3Dw156-h114-p-k-no.jpeg?alt=media&token=a67efbdb-c5c7-4d8a-9f18-c7c89ed4e5a2"],
-        "geohash":"tdpd68gw8gus",
-        "resCode":"M2V-RES71575",
-        "mapLink":"https://goo.gl/maps/E7SeuuHNbjGDQFVs9",
+        "images":["https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FPriyam%20Speciality%20Hospital%2FAF1QipPmBaWQPMLtOwC0MVI3Lo0YwDaelxzourJEmpWD%3Dw344-h298-k-no.jfif?alt=media&token=3e7d143a-ba90-4624-b272-c93fe84fefc8","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FPriyam%20Speciality%20Hospital%2FAF1QipPmBaWQPMLtOwC0MVI3Lo0YwDaelxzourJEmpWD%3Dw344-h298-k-no.jfif?alt=media&token=3e7d143a-ba90-4624-b272-c93fe84fefc8","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FPriyam%20Speciality%20Hospital%2FAF1QipMLWoKzBukToAsb-LMYRE7tj9M5v-txznuLv5zc%3Dw125-h91-p-k-no.jfif?alt=media&token=457d8101-8b3c-442d-9f94-3a9a6a45aadc","https://firebasestorage.googleapis.com/v0/b/minutetovisit-67dd9.appspot.com/o/Hospitals%2Fsalem%2FPriyam%20Speciality%20Hospital%2FAF1QipPzbZ6JkbBbJ4TVwS9u05ZZV0RntEjBgg8YtK6Q%3Dw125-h91-p-k-no.jfif?alt=media&token=1f356259-5f96-4de3-94ea-e0a18c76269e"],
+        "geohash":"tdpd1y02bsrg",
+        "resCode":"M2V-RES72170",
+        "mapLink":"https://goo.gl/maps/jgH46EzPUPh5AYER6",
         "approved":true,
-        "reviews":"4SeVdaJJoOf0saIhqkY6"
-    }
+        "reviews":"hKqhhUpjZQkKMeVIQauf"
+    }    
+  
+    
+
+
+
 
 ]
