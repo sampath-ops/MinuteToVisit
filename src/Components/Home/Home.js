@@ -1,10 +1,12 @@
 import styles from "./home.module.css";
 import HomeNear from "./HomeNear/HomeNear";
 import hero from "../../Images/hero.svg";
+import Navbar from "../Navbar/Navbar";
 // import Import from "../../importData";
 const Home = ({nearbySnap}) => {
 
     return (  
+        <Navbar>
         <div className={styles.home}>
             <div className={styles.home_container}>
                 <div className={styles.hero_content_container}>
@@ -34,6 +36,7 @@ const Home = ({nearbySnap}) => {
             </div>
            
         </div>
+        </Navbar>
     );
 }
  

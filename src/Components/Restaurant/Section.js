@@ -3,6 +3,7 @@ import SectionCardTemplate from "./SectionCardTemplate";
 import { db } from "../../firebase.config";
 import { getDocs,collection } from "firebase/firestore";
 import { useEffect, useState } from "react";
+import Navbar from "../Navbar/Navbar";
 const Restaurant = ({sectionName,title}) => {
     const [restaurants,setRestaurantsSnap] = useState();
     useEffect(()=>{
@@ -12,9 +13,11 @@ const Restaurant = ({sectionName,title}) => {
         getRestaurants();
     },[sectionName])
     return ( 
+        <Navbar>
         <div className="restaurant">
             {restaurants && <SectionCardTemplate title={title} restaurants={restaurants}/>}
         </div>
+        </Navbar>
      );
 }
  

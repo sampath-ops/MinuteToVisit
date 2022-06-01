@@ -4,14 +4,16 @@ import {faUtensils,faClapperboard,faCartShopping,faTree, faHospital} from '@fort
 import { NavLink } from "react-router-dom";
 import Logo from "../Logo";
 import SearchBar from "../SearchBar";
-import { signInWithGoogle,SignOut } from "../signin";
+import { signInWithGoogle } from "../signin";
 import { useScrollHandler } from "./useScrollHandler";
 import { UserContext } from "../Provider/UserProvider";
 import { useContext } from "react";
-const Navbar = () => {
+import UserProfileIcon from "./UserProfileIcon";
+const Navbar = (props) => {
     const user = useContext(UserContext);
     const scroll = useScrollHandler();
     return ( 
+        <>
         <div className={styles.navbar_container + ` ${scroll ? styles.navonscroll : ""}`}>
             <div className={styles.navbar}>
                 <Logo/>
@@ -26,14 +28,19 @@ const Navbar = () => {
                 </div>
                 <SearchBar/>
                 {
-                    user ?<div className={styles.login_button}>
-                    <button onClick={SignOut}>Logout</button>
-                    </div> : <div className={styles.login_button}>
+                    user ?<>
+                    {/* <button onClick={SignOut}>Logout</button> */}
+                    <UserProfileIcon/>
+                    </> : <div className={styles.login_button}>
                     <button onClick={signInWithGoogle}>Login</button>
                     </div>
                 }
             </div>
         </div>
+        {
+            props.children
+        }
+        </>
      );
 }
  

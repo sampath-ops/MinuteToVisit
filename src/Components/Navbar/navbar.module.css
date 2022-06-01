@@ -88,6 +88,19 @@
 .login_button > button:hover{
     background-color: #1E88E5;
 }
+.profile_nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.user_profile_icon{
+    display: flex;
+    cursor: pointer;
+}
+.user_profile_icon > a > img{
+    width: 50px;
+    border-radius: 50%;
+}
 @media(max-width:768px){
     .navbar{
         margin: 16px;

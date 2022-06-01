@@ -24,7 +24,7 @@ const CardTemplate = ({arr,title}) => {
                     <div className={styles.card_container}>
                         <img src={item.images[0]} alt="temp" />
                         <div className={styles.card_content}>
-                            <p className={styles.city_type}>Salem <FontAwesomeIcon icon={icons[title]}/></p>
+                            <p className={styles.city_type}>Salem {icons[title] && <FontAwesomeIcon icon={icons[title]}/>}</p>
                             <h2>{item.name}</h2>
                             <p className='content_short'>{item.address}</p>
                             <Link to={`/restaurant/${slug}`}><button className={styles.know_more}>Know more <FontAwesomeIcon icon={faArrowRight}/></button></Link>

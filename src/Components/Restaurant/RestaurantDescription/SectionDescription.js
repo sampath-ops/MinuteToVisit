@@ -15,6 +15,7 @@ import { doc, getDoc, updateDoc } from "firebase/firestore";
 import { db } from "../../../firebase.config";
 import {UserContext} from "../../Provider/UserProvider";
 import { useContext } from "react";
+import Navbar from "../../Navbar/Navbar";
 const RestaurantDescription = ({nearbySnap,collection}) => {
 
     const user = useContext(UserContext);
@@ -83,6 +84,7 @@ const RestaurantDescription = ({nearbySnap,collection}) => {
     // console.log(reviewsObj)
 
     return ( 
+        <Navbar>
         <div className={styles.restaurant_description_container}>
             <div className={styles.restaurant_hero}>
                 <Carousel className={styles.carousle} showArrows={true} autoPlay={false} showStatus={false} showIndicators={true} showThumbs={false} infiniteLoop={true}>
@@ -167,6 +169,7 @@ const RestaurantDescription = ({nearbySnap,collection}) => {
                 </>
             }  
         </div>
+        </Navbar>
      );
 }
  

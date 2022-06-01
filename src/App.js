@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import GeoLocation from './Components/GeoLocation';
-import Navbar from './Components/Navbar/Navbar';
+// import Navbar from './Components/Navbar/Navbar';
 import Home from "./Components/Home/Home";
 import Section from './Components/Restaurant/Section';
 // import Entertainment from './Components/Entertainment/Entertainment';
@@ -14,6 +14,7 @@ import SectionDescription from './Components/Restaurant/RestaurantDescription/Se
 import { useState } from 'react';
 import UploadRestaurant from './Components/Upload/Restaurant';
 import ScrollToTop from './Components/ScrollToTop';
+import UserProfile from './Components/UserProfile/UserProfile';
 function App() {
 
   const [nearbySnap,setNearBySnap] = useState({});
@@ -26,7 +27,7 @@ function App() {
   }
  
   if(Object.keys(nearbySnap).length > 0){
-      console.log(nearbySnap);
+
       nearbySnap.restaurant.forEach((doc) => {
       // doc.data() is never undefined for query doc snapshots
       // console.log(doc.data());
@@ -37,7 +38,7 @@ function App() {
   return (
     <UserProvider>
     <Router>
-      <Navbar/>
+      
       <GeoLocation nearByDocumentsHandler={nearByDocuments}/>
       <ScrollToTop />
        <Routes>
@@ -53,7 +54,7 @@ function App() {
          <Route path="/shops/:id" element={<SectionDescription collection="ShopReivews" nearbySnap={nearbySnap}/>}/>
          <Route path="/sites/:id" element={<SectionDescription collection="SitesReviews" nearbySnap={nearbySnap}/>}/>
          <Route path="/hospitals/:id" element={<SectionDescription collection="HospitalReviews" nearbySnap={nearbySnap}/>}/>
-  
+         <Route path="/user/profile" element={<UserProfile/>}/>
          <Route path="/upload/restaurant" element={<UploadRestaurant/>}/>
        </Routes>
        <Footer/>
