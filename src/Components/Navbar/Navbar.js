@@ -3,15 +3,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faUtensils,faClapperboard,faCartShopping,faTree, faHospital} from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from "react-router-dom";
 import Logo from "../Logo";
-import SearchBar from "../SearchBar";
+import SearchBar from "./SearchBar";
 import { signInWithGoogle } from "../signin";
 import { useScrollHandler } from "./useScrollHandler";
 import { UserContext } from "../Provider/UserProvider";
 import { useContext } from "react";
 import UserProfileIcon from "./UserProfileIcon";
+
 const Navbar = (props) => {
+
     const user = useContext(UserContext);
     const scroll = useScrollHandler();
+    const searchedDocuments = (snap=>{
+        snap.forEach(element => {
+            console.log(element)
+        });
+    })
     return ( 
         <>
         <div className={styles.navbar_container + ` ${scroll ? styles.navonscroll : ""}`}>
@@ -26,7 +33,7 @@ const Navbar = (props) => {
                         <NavLink to="/hospitals"><li><FontAwesomeIcon icon={faHospital} />Hospitals</li></NavLink>  
                     </ul>
                 </div>
-                <SearchBar/>
+                <SearchBar searchedDocuments={searchedDocuments}/>
                 {
                     user ?<>
                     {/* <button onClick={SignOut}>Logout</button> */}

@@ -115,7 +115,7 @@
     .logo{
         grid-area: logo;
     }
-    .searchbar{
+    #geocoder{
         grid-area: search;
     }
     .login_button{

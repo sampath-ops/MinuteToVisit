@@ -47,7 +47,13 @@
   .carousel .slide img{
     height: 488px;
 }
-
+#geocoder {
+  z-index: 1;
+  }
+  .mapboxgl-ctrl-geocoder {
+    min-width: 100% !important;
+  }
+  
 @media(max-width:768px){
     .footer{
         display: block;
@@ -61,5 +67,8 @@
       }
       .carousel .slide img{
         height: 215px;
+      }
+      .mapboxgl-ctrl-geocoder--input{
+        height: 30px;
       }
 }

@@ -26,15 +26,6 @@ function App() {
     }))
   }
  
-  if(Object.keys(nearbySnap).length > 0){
-
-      nearbySnap.restaurant.forEach((doc) => {
-      // doc.data() is never undefined for query doc snapshots
-      // console.log(doc.data());
-    });
-  }
-  
-
   return (
     <UserProvider>
     <Router>

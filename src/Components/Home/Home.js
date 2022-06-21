@@ -4,7 +4,7 @@ import hero from "../../Images/hero.svg";
 import Navbar from "../Navbar/Navbar";
 // import Import from "../../importData";
 const Home = ({nearbySnap}) => {
-
+    
     return (  
         <Navbar>
         <div className={styles.home}>
